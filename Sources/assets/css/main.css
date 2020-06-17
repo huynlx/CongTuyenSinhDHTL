@@ -1,0 +1,108 @@
+
+/* *************MAIN*********** */
+#main{
+    padding-top: 1em;
+}
+#main #main__wrapp{
+    display: flex;
+}
+#main #main__wrapp a{
+    color: #064a75;
+}
+#main #main__wrapp a:hover{
+    color: #e40000!important;
+}
+#main #main__wrapp #main__left{
+    flex: 0 0 70%;
+    width: 70%;
+}
+#main__wrapp #main__left .title__news{
+    background-color: #1e499a;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px;
+}
+#main__wrapp #main__left .title-heading{
+    color: #606060;
+    background-color: #f5f5f5;
+    font-size: 15px;
+}
+
+#main__left .list__news .list__news--item{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+#main__left .block-tts .list__news{
+    padding: 0 15px;
+}
+#main__left .list__news #news--item{
+    border-bottom: none;
+    padding: 4px 0;
+}
+#main__left .list__news #news--item:before{
+    content: "";
+    position: relative;
+    top: -2px;
+    left: -4px;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    background: #000;
+    display: inline-block;
+}
+#main__left .content-wrap .content p{
+    padding: 0 0 20px;
+}
+#main__left .content-wrap .page-title{
+    font-size: 26px;
+    color: #b22222;
+    text-align: center;
+}
+#main #main__wrapp #main__right{
+    flex-grow: 1;
+    padding: 0 30px;
+}
+#main__wrapp #main__right .block{
+    padding-top: 15px;
+}
+#main__wrapp #main__right img{
+    width: 100%;
+}
+#main__right .block-1 img{
+    border-radius: 10px;
+}
+#main__right .block .block__title{
+    font-size: 20px;
+    color: #fff;
+    background-color: #800c15;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#main__right .block .content .menu-news{
+    padding: 0 30px;
+}
+#main__right .block .content .menu-news li{
+    position: relative;
+    padding-bottom:10px;
+}
+#main__right .block .content .menu-news li:before{
+    position: absolute;
+    top:-2px;
+    left:-15px;
+    font-family: 'Font Awesome 5 Free';
+    font-size:1.2em;
+    content: "\f105";
+    font-weight: 900;
+    color: #428bca;
+}
+#main__right #block-9 .block__title{
+    display: flex;
+    align-items: center;
+}
+#main__right #block-9 .block__title p{
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+/* *************MAIN--END*********** */

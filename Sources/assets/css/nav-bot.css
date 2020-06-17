@@ -1,0 +1,22 @@
+/* *************NAV-TOP*********** */
+#nav__bottom{
+    background: firebrick;
+}
+#nav__bottom .nav__bottom--menu{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+.nav__bottom--menu .nav__menu--item{
+    text-align: center;
+}
+.nav__bottom--menu .nav__menu--item a{
+    display: block;
+    color: #fff;
+    font-size: .8em;
+    font-weight: 700;
+}
+.nav__bottom--menu .nav__menu--item:hover{
+    color: blue!important;
+}
+/* *************NAV-TOP--END*********** */

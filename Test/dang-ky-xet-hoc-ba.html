@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html ng-app="appDangky" style="background-color:#fff !important;">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Đăng ký trực tuyến Xét tuyển học bạ - HUTECH</title>
+    <meta name="description" content="Đăng ký xét tuyển học bạ vào Đại học tại HUTECH bằng hình thức trực tuyến với thao tác đơn giản, chính xác">
+    <meta name="othor" content="HUTECH">
+    <meta property="og:image" content="http://www.hutech.edu.vn/LandingPageDangKy/image/hocba30052020.png" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="315" />
+    <meta property="og:image:alt" content="Đăng ký xét tuyển học bạ vào Đại học tại HUTECH bằng hình thức trực tuyến với thao tác đơn giản, chính xác" />
+    <link rel="shortcut icon" href="http://www.hutech.edu.vn/favicon.ico" type="image/x-icon">
+    <link href="/LandingPageDangKy/fonts/glyphicons/css/glyphicons.css" rel="stylesheet" />
+    <link href="/LandingPageDangKy/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="/LandingPageDangKy/css/bootstrap.css" rel="stylesheet" />
+    <link href="/LandingPageDangKy/css/custom-style.css" rel="stylesheet" />
+
+    <link href="/LandingPageDangKy/plugins/datapicker/datepicker3.css" rel="stylesheet" />
+    <script type="text/javascript" src="/LandingPageDangKy/plugins/angular.js"></script>
+    <script type="text/javascript" src="/LandingPageDangKy/plugins/ng-file-upload/ng-file-upload-shim.js"></script>
+    <script type="text/javascript" src="/LandingPageDangKy/plugins/ng-file-upload/ng-file-upload.js"></script>
+
+    <script type="text/javascript" src="/LandingPageDangKy/js/ui-mask.js"></script>
+    <script src="/LandingPageDangKy/plugins/ui/ui-bootstrap-tpls.min.js"></script>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+    <script type="text/javascript" src="/LandingPageDangKy/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/LandingPageDangKy/plugins/datapicker/bootstrap-datepicker.js"></script>
+
+    <script type="text/javascript" src="/LandingPageDangKy/js/TuyenSinh/appDangky.js"></script>
+    <script type="text/javascript" src="/LandingPageDangKy/js/bootstrap.min.js"></script>
+
+    <style>
+        .textinput {
+            margin-bottom: 0;
+        }
+        
+        .btn-wrap-text {
+            white-space: normal !important;
+            word-wrap: break-word !important;
+            text-align: left;
+        }
+        
+        .wrap-text {
+            white-space: normal !important;
+            word-wrap: break-word !important;
+            text-align: left;
+            line-height: normal;
+        }
+        
+        .no-padding {
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+        }
+        
+        .col-xs-1,
+        .col-sm-1,
+        .col-md-1,
+        .col-lg-1,
+        .col-xs-2,
+        .col-sm-2,
+        .col-md-2,
+        .col-lg-2,
+        .col-xs-3,
+        .col-sm-3,
+        .col-md-3,
+        .col-lg-3,
+        .col-xs-4,
+        .col-sm-4,
+        .col-md-4,
+        .col-lg-4,
+        .col-xs-5,
+        .col-sm-5,
+        .col-md-5,
+        .col-lg-5,
+        .col-xs-6,
+        .col-sm-6,
+        .col-md-6,
+        .col-lg-6,
+        .col-xs-7,
+        .col-sm-7,
+        .col-md-7,
+        .col-lg-7,
+        .col-xs-8,
+        .col-sm-8,
+        .col-md-8,
+        .col-lg-8,
+        .col-xs-9,
+        .col-sm-9,
+        .col-md-9,
+        .col-lg-9,
+        .col-xs-10,
+        .col-sm-10,
+        .col-md-10,
+        .col-lg-10,
+        .col-xs-11,
+        .col-sm-11,
+        .col-md-11,
+        .col-lg-11,
+        .col-xs-12,
+        .col-sm-12,
+        .col-md-12,
+        .col-lg-12 {
+            padding-left: 5px !important;
+            padding-right: 5px !important;
+        }
+        
+        .input-group-addon {
+            padding-left: 8px !important;
+            padding-right: 8px !important;
+        }
+
+    </style>
+
+</head>
+
+<body ng-controller="mainController">
+    <header class="row">
+        <div class="content">
+            <div class="col-sm-6" id="logo">
+                <a href="http://www.hutech.edu.vn/tuyensinh"><img id="imgLogo" src="http://www.hutech.edu.vn/LandingPageDangKy/image/logo.jpg" /></a>
+            </div>
+            <div id="slogan" class="col-sm-6 text-center">
+                <div class="logan">Tri thức - Đạo đức - Sáng tạo</div>
+            </div>
+        </div>
+    </header>
+    <div id="Content_UpdateThongTinNhapHoc">
+        <div class="blockBanner">
+            <img class="img-responsive" src="/LandingPageDangKy/image/nhaphoc2018/banner_hocba.png">
+        </div>
+        <div class="container blockContent">
+            <div class="row">
+                <div class="col-sm-3 no-padding" style="margin-top: 41px;margin-bottom: 10px;" data-includeHTML="/LandingPageDangKy/component/hocba/menuleft.html">
+                </div>
+                <div class="col-sm-9">
+                    <form name="form" ng-submit="submitXetTuyenHocBa2(form)">
+                        <div class="">
+
+                            <div class="blockTitle">
+                                <img class="img-responsive" src="/LandingPageDangKy/image/nhaphoc2018/thong-tin-ho-so.png">
+                            </div>
+                            <div class="syllView">
+                                <input id="idbieumau" name="idbieumau" type="hidden" value="" ng-init="idbieumau='DANG_KY_TRUC_TUYEN_XET_TUYEN_HOC_BA'" ng-value="idbieumau" />
+
+                                <div class="row">
+                                    <div class="col-sm-6 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.HoVaTen.$touched && form.HoVaTen.$error.required  }">
+                                            <span class="input-group-addon "><label for="HoVaTen">
+                                                    Họ và tên
+                                                </label></span>
+                                            <input ng-model="kq.HoVaTen" class="form-control" id="HoVaTen" ng-minlength="2" required name="HoVaTen" value="" type="text" placeholder="Nhập tên">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 textinput">
+                                        <div id="divGioiTinh" class="input-group ">
+                                            <span class="input-group-addon"><label for="DDL_GioiTinh">
+                                                    Giới tính
+                                                </label></span>
+                                            <select ng-model="kq.GioiTinh" id="DDL_GioiTinh" class="form-control  " ng-options="item.GioiTinhName for item in dangky.ListGioiTinh track by item.GioiTinhID"></select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.NgaySinh.$touched && form.NgaySinh.$error.required  }">
+                                            <span class="input-group-addon"><label for="NgaySinh">
+                                                    Ngày sinh
+                                                </label></span>
+                                            <input ng-model="kq.NgaySinh" class="form-control" ng-minlength="2" required id="NgaySinh" name="NgaySinh" value="" type="text" placeholder="Nhập ngày tháng năm sinh">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.DanToc.$touched && form.DanToc.$error.required  }">
+                                            <span class="input-group-addon"><label for="DanToc">
+                                                    Dân tộc
+                                                </label></span>
+                                            <input ng-model="kq.DanToc" class="form-control" required id="DanToc" name="DanToc" value="" type="text" placeholder="Nhập tên dân tộc">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.TonGiao.$touched && form.TonGiao.$error.required  }">
+                                            <span class="input-group-addon"><label for="TonGiao">
+                                                    Tôn giáo
+                                                </label></span>
+                                            <input ng-model="kq.TonGiao" class="form-control" required id="TonGiao" name="TonGiao" value="" type="text" placeholder="Nhập tên tôn giáo">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 textinput">
+                                        <!--<div class="input-group "
+                                            ng-class="{ 'has-error': form.NoiSinh.$touched && form.NoiSinh.$error.required  }">
+                                            <span class="input-group-addon"><label for="NoiSinh">
+                                                    Nơi sinh
+                                                </label></span>
+                                            <input ng-model="kq.NoiSinh" class="form-control" required id="NoiSinh"
+                                                name="NoiSinh" value="" type="text" placeholder="Nhập nơi sinh">
+                                        </div>-->
+                                        <div id="divNoiSinh" class="input-group ">
+                                            <span class="input-group-addon"><label for="NoiSinh">
+                                                    Nơi sinh
+                                                </label></span>
+                                            <select ng-model="kq.NoiSinh" id="DDL_NoiSinh" class="form-control  " ng-options="item.TinhThanhName for item in dangky.ListTinhThanh track by item.TinhThanhID"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 textinput">
+                                        <div id="divNamTotNghiep" class="input-group ">
+                                            <span class="input-group-addon"><label for="DDL_NamTotNghiep">
+                                                    Năm tốt nghiệp
+                                                </label></span>
+                                            <select ng-model="kq.NamTotNghiep" class="form-control" ng-options="item.NamName for item in dangky.ListNamTotNghiep track by item.NamID"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 textinput">
+                                        <div id="divHocLuc" class="input-group ">
+                                            <span class="input-group-addon"><label for="DDL_HocLuc">
+                                                    Học lực lớp 12 
+                                                </label></span>
+                                            <select ng-model="kq.HocLuc" class="form-control" ng-options="item.TenHocLuc for item in dangky.ListHocLuc track by item.MaHocLuc"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 textinput">
+                                        <div id="divHanhKiem" class="input-group ">
+                                            <span class="input-group-addon"><label for="DDL_HanhKiem">
+                                                    Hạnh kiểm lớp 12 
+                                                </label></span>
+                                            <select ng-model="kq.HanhKiem" class="form-control" ng-options="item.TenHanhKiem for item in dangky.ListHanhKiem  track by item.MaHanhKiem"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.SoCMND.$touched && form.SoCMND.$error.required  }">
+                                            <span class="input-group-addon "><label for="SoCMND">
+                                                    Số CMND/CCCD
+                                                </label></span>
+                                            <input ng-model="kq.SoCMND" class="form-control" id="SoCMND" ng-minlength="5" required name="SoCMND" value="" type="text" placeholder="Số CMND/CCCD/Hộ chiếu">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.NgayCap.$touched && form.NgayCap.$error.required  }">
+                                            <span class="input-group-addon "><label for="NgayCap">
+                                                    Ngày cấp
+                                                </label></span>
+                                            <input ng-model="kq.NgayCap" class="form-control" id="NgayCap" required name="NgayCap" value="" type="text" placeholder="Ngày cấp">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 textinput">
+                                        <!--<div class="input-group " ng-class="{ 'has-error': form.NoiCap.$touched && form.NoiCap.$error.required  }">
+                                            <span class="input-group-addon"><label for="NoiCap">
+                                                    Nơi cấp
+                                                </label></span>
+                                            <input ng-model="kq.NoiCap" class="form-control" required id="NoiCap" name="NoiCap" value="" type="text" placeholder="Nhập nơi cấp">
+                                        </div>-->
+                                        <div id="divNoiCap" class="input-group ">
+                                            <span class="input-group-addon "><label for="NoiCap">
+                                                    Nơi cấp
+                                                </label></span>
+                                            <select ng-model="kq.NoiCap" id="DDL_NoiCap" class="form-control  " ng-options="item.TinhThanhName for item in dangky.ListTinhThanh track by item.TinhThanhID"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.HoKhau.$touched && form.HoKhau.$error.required  }">
+                                            <span class="input-group-addon "><label for="HoKhau">
+                                                    Hộ khẩu thường trú
+                                                </label></span>
+                                            <input ng-model="kq.HoKhau" class="form-control" id="HoKhau" ng-minlength="5" required name="HoKhau" value="" type="text" placeholder="Nhập hộ khẩu thường trú">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group">
+                                            <i>
+                                                Ghi rõ tên tỉnh (thành phố), huyện (quận), xã (phường) vào ô hộ khẩu
+                                                thường trú.
+                                            </i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group">
+                                            <span><label>
+                                                    Nơi học THPT hoặc tương đương (ghi tên trường và nơi trường đóng:
+                                                    huyện (quận), tỉnh (thành phố)):
+                                                </label></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 blockhide">
+                                        <div class=" col-sm-2 nopadding">
+
+                                        </div>
+                                        <div class="col-sm-2 text-center">
+                                            Mã tỉnh
+                                        </div>
+                                        <div class="col-sm-3 text-center">
+                                            Tên tỉnh/TP
+                                        </div>
+                                        <div class="col-sm-2 text-center">
+                                            Mã trường
+                                        </div>
+                                        <div class="col-sm-3 text-center nopadding">
+                                            Tên trường
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 form-group">
+                                        <div class=" col-sm-2 nopadding">
+                                            <div id="divNoiHocLop10" class="input-group">
+                                                <span class="input-group-addon" style="padding: 9px 0; text-align: left;">
+                                                   <label for="NoiHocLop10">
+                                                        Năm lớp 10
+                                                    </label>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <input class="form-control" value="{{kq.NoiHocLop10.TinhThanhID != '00' ? kq.NoiHocLop10.TinhThanhID : ''}}" type="text" disabled placeholder="" />
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <select ng-model="kq.NoiHocLop10" id="DDL_NoiSinh" class="form-control  " ng-options="item.TinhThanhName for item in dangky.ListTinhThanh track by item.TinhThanhID" ng-change="getListTruongTHPT(kq.NoiHocLop10.TinhThanhID, 10)"></select>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <input value="{{kq.MaTruongHocLop10.matruong != '0' ? kq.MaTruongHocLop10.matruong : ''}}" class="form-control" value="" type="text" disabled placeholder="" class="col-sm-" />
+                                        </div>
+                                        <div class="col-sm-3 nopadding">
+                                            <select ng-model="kq.MaTruongHocLop10" id="DDL_MaTruongHocLop10" class="form-control  " ng-options="item.tentruong for item in dangky.ListMaTruongTHPT10 track by item.matruong"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 form-group">
+                                        <div class=" col-sm-2 nopadding">
+                                            <div id="divNoiHocLop11" class="input-group">
+                                                <span class="input-group-addon" style="padding: 9px 0; text-align: left;">
+                                                   <label for="NoiHocLop10">
+                                                        Năm lớp 11
+                                                    </label>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <input class="form-control" value="{{kq.NoiHocLop11.TinhThanhID != '00' ? kq.NoiHocLop11.TinhThanhID : ''}}" type="text" disabled placeholder="" />
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <select ng-model="kq.NoiHocLop11" id="DDL_NoiHocLop11" class="form-control  " ng-options="item.TinhThanhName for item in dangky.ListTinhThanh track by item.TinhThanhID" ng-change="getListTruongTHPT(kq.NoiHocLop11.TinhThanhID, 11)"></select>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <input value="{{kq.MaTruongHocLop11.matruong != '0' ? kq.MaTruongHocLop11.matruong : ''}}" class="form-control" value="" type="text" disabled placeholder="" class="col-sm-" />
+                                        </div>
+                                        <div class="col-sm-3 nopadding">
+                                            <select ng-model="kq.MaTruongHocLop11" id="DDL_MaTruongHocLop11" class="form-control  " ng-options="item.tentruong for item in dangky.ListMaTruongTHPT11 track by item.matruong"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 form-group">
+                                        <div class=" col-sm-2 nopadding">
+                                            <div id="divNoiHocLop12" class="input-group">
+                                                <span class="input-group-addon" style="padding: 9px 0; text-align: left;">
+                                                   <label for="NoiHocLop10">
+                                                        Năm lớp 12
+                                                    </label>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <input class="form-control" value="{{kq.NoiHocLop12.TinhThanhID != '00' ? kq.NoiHocLop12.TinhThanhID : ''}}" type="text" disabled placeholder="" />
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <select ng-model="kq.NoiHocLop12" id="DDL_NoiHocLop12" class="form-control  " ng-options="item.TinhThanhName for item in dangky.ListTinhThanh track by item.TinhThanhID" ng-change="getListTruongTHPT(kq.NoiHocLop12.TinhThanhID, 12)"></select>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <input value="{{kq.MaTruongHocLop12.matruong != '0' ? kq.MaTruongHocLop12.matruong : ''}}" class="form-control" value="" type="text" disabled placeholder="" class="col-sm-" />
+                                        </div>
+                                        <div class="col-sm-3 nopadding">
+                                            <select ng-model="kq.MaTruongHocLop12" id="DDL_MaTruongHocLop12" class="form-control  " ng-options="item.tentruong for item in dangky.ListMaTruongTHPT12 track by item.matruong"></select>
+                                        </div>
+                                    </div>
+                                    <!--<div class="col-sm-12 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.NoiHocLop10.$touched && form.NoiHocLop10.$error.required  }">
+                                            <span class="input-group-addon "><label for="NoiHocLop10">
+                                                    Năm lớp 10
+                                                </label></span>
+                                            <input ng-model="kq.NoiHocLop10" class="form-control" id="NoiHocLop10" ng-minlength="5" required name="NoiHocLop10" value="" type="text" placeholder="Nhập tên trường và nơi đóng">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.NoiHocLop11.$touched && form.NoiHocLop11.$error.required  }">
+                                            <span class="input-group-addon "><label for="NoiHocLop11">
+                                                    Năm lớp 11
+                                                </label></span>
+                                            <input ng-model="kq.NoiHocLop11" class="form-control" id="NoiHocLop11" ng-minlength="5" required name="NoiHocLop11" value="" type="text" placeholder="Nhập tên trường và nơi đóng">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.NoiHocLop12.$touched && form.NoiHocLop12.$error.required  }">
+                                            <span class="input-group-addon "><label for="NoiHocLop12">
+                                                    Năm lớp 12
+                                                </label></span>
+                                            <input ng-model="kq.NoiHocLop12" class="form-control" id="NoiHocLop12" ng-minlength="5" required name="NoiHocLop12" value="" type="text" placeholder="Nhập tên trường và nơi đóng">
+                                        </div>
+                                    </div>-->
+                                    <div class="col-sm-12 form-group">
+                                        <div class="col-sm-10">
+                                            Đối tượng ưu tiên tuyển sinh: <i>(Thuộc đối tượng nào thì chọn đối tượng bên phải)</i>
+                                        </div>
+                                        <div class="col-sm-2 nopadding">
+                                            <select ng-model="kq.DoiTuongUuTien" id="DDL_DoiTuongUuTien" class="form-control  " ng-options="item.TenDoiTuong for item in dangky.ListDoiTuongUuTien track by item.MaDoiTuong"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 form-group">
+                                        <div class="col-sm-10">
+                                            Khu vực ưu tiên tuyển sinh: (<i>Thuộc khu vực nào thì chọn ký hiệu của khu vực (KV1,KV2-NT, KV2, KV3) vào ô khu vực ưu tiên</i>)
+                                        </div>
+                                        <div class="col-sm-2 nopadding">
+                                            <select ng-model="kq.KhuVucUuTien" id="DDL_KhuVucUuTien" class="form-control  " ng-options="item.TenKhuVuc for item in dangky.ListKhuVucUuTien track by item.MaKhuVuc"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.DiaChiLienHe.$touched && form.DiaChiLienHe.$error.required  }">
+                                            <span class="input-group-addon "><label for="DiaChiLienHe">
+                                                    Địa chỉ liên hệ
+                                                </label></span>
+                                            <input ng-model="kq.DiaChiLienHe" class="form-control" id="DiaChiLienHe" ng-minlength="5" required name="DiaChiLienHe" value="" type="text" placeholder="Nhập Địa chỉ">
+                                        </div>
+                                    </div>
+                                    <!--<div class="col-sm-12 textinput">
+                                        <div class="input-group">
+                                            <span class="input-group-addon "><label for="DoiTuongUuTien">
+                                                    Đối tượng ưu tiên tuyển sinh
+                                                </label></span>
+                                            <input ng-model="kq.DoiTuongUuTien" class="form-control" id="DoiTuongUuTien" name="DoiTuongUuTien" value="" type="text" placeholder="Nhập ký hiệu đối tượng ưu tiên">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group ">
+                                            <i>
+                                                Thuộc đối tượng nào thì nhập ký hiệu vào ô đối tượng ưu tiên (01, 02,
+                                                03, 04, 05,
+                                                06, 07), nếu không thuộc diện ưu tiên thì để trống.
+                                            </i>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.KhuVucUuTien.$touched && form.KhuVucUuTien.$error.required  }">
+                                            <span class="input-group-addon "><label for="KhuVucUuTien">
+                                                    Khu vực ưu tiên tuyển sinh
+                                                </label></span>
+                                            <input ng-model="kq.KhuVucUuTien" class="form-control" id="KhuVucUuTien" required name="KhuVucUuTien" value="" type="text" placeholder="Nhập ký hiệu khu vực ưu tiên">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group">
+                                            <i>
+                                                Thuộc khu vực nào thì nhập ký hiệu của khu vực (KV1,
+                                                KV2-NT, KV2, KV3) vào ô khu vực ưu tiên.
+                                            </i>
+                                        </div>
+                                    </div>-->
+                                    <div class="col-sm-6 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.SoDienThoai.$touched && form.SoDienThoai.$error.required  }">
+                                            <span class="input-group-addon"><label for="SoDienThoai">
+                                                    Điện thoại thí sinh
+                                                </label></span>
+                                            <input ng-model="kq.SoDienThoai" class="form-control" ng-minlength="2" required id="SoDienThoai" name="SoDienThoai" value="" type="text" placeholder="Nhập số điện thoại">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.SoDienThoaiPhuHuynh.$touched && form.SoDienThoaiPhuHuynh.$error.required  }">
+                                            <span class="input-group-addon"><label for="SoDienThoaiPhuHuynh">
+                                                    Điện thoại phụ huynh
+                                                </label></span>
+                                            <input ng-model="kq.SoDienThoaiPhuHuynh" class="form-control" ng-minlength="2" required id="SoDienThoaiPhuHuynh" name="SoDienThoaiPhuHuynh" value="" type="text" placeholder="Nhập số điện thoại">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="blockTitle">
+                                <img class="img-responsive" src="/LandingPageDangKy/image/nhaphoc2018/thong-tin-dang-ky.png">
+                            </div>
+                            <div class="syllView">
+                                <div class="row">
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group">
+                                            <span>
+                                                Sau khi đã đọc và hiểu rõ các quy định về tiêu chí và điều kiện xét tuyển của Nhà trường, tôi đồng ý xét tuyển học bạ vào trình độ Đại học như sau: (<i>chọn phương thức xét tuyển</i>)
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group">
+                                            <label class="checkbox-inline">
+                                                <input ng-model="kq.DangKyXetTuyenHocBaCheck1" type="checkbox" value=""> <b>Xét tuyển bằng Tổng điểm Trung bình lớp 12 theo tổ hợp 3 môn</b>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!--<div class="col-sm-12 text-center">
+                                        <div id="divListMonThi" class="checkbox-inline" style="margin-bottom: 10px;">
+                                            <label class="checkbox-inline">
+                                                <input ng-model="kq.MonToan" type="checkbox" value="">Toán
+                                            </label>
+                                            <label class="checkbox-inline">
+                                                <input ng-model="kq.MonVatLy" type="checkbox" value="">Vật lý
+                                            </label>
+                                            <label class="checkbox-inline">
+                                                <input ng-model="kq.MonHoaHoc" type="checkbox" value="">Hóa học
+                                            </label>
+                                            <label class="checkbox-inline">
+                                                <input ng-model="kq.MonSinhHoc" type="checkbox" value="">Sinh học
+                                            </label>
+                                            <label class="checkbox-inline">
+                                                <input ng-model="kq.MonTiengAnh" type="checkbox" value="">Tiếng Anh
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group">
+                                            <span>
+                                                và đăng ký xét tuyển trình độ Đại học vào các ngành:
+                                            </span>
+                                        </div>
+                                    </div>-->
+                                    <div ng-if="kq.DangKyXetTuyenHocBaCheck1">
+                                        <div class="col-sm-6 textinput">
+                                            <div id="divNganhTuyenSinhRieng1" class="input-group ">
+                                                <span class="input-group-addon">Ngành 1</span>
+                                                <select ng-model="kq.NganhHocBa1" id="DDL_NganhHocBa1" class="form-control" ng-change="getToHopMonHocBa2(kq.NganhHocBa1,1)" ng-options="item.NganhXetTuyenName for item in dangky.ListNganhXetTuyenHocBa track by item.NganhXetTuyenID"></select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 textinput">
+                                            <div id="divToHopMonTuyenSinhRieng1" class="input-group ">
+                                                <span class="input-group-addon">Tổ hợp môn</span>
+                                                <select ng-model="kq.ChonToHopMonHocBa1" id="DDL_ChonToHopMonTuyenSinhRieng1" class="form-control" ng-options="item.ToHopMonName for item in dangky.ListChonToHopMonHocBa1 track by item.ToHopMonID"></select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 textinput">
+                                            <div id="divNganhTuyenSinhRieng2" class="input-group ">
+                                                <span class="input-group-addon">Ngành 2</span>
+                                                <select ng-model="kq.NganhHocBa2" id="DDL_NganhHocBa2" class="form-control" ng-change="getToHopMonHocBa2(kq.NganhHocBa2,2)" ng-options="item.NganhXetTuyenName for item in dangky.ListNganhXetTuyenHocBa track by item.NganhXetTuyenID"></select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 textinput">
+                                            <div id="divToHopMonTuyenSinhRieng2" class="input-group ">
+                                                <span class="input-group-addon">Tổ hợp môn</span>
+                                                <select ng-model="kq.ChonToHopMonHocBa2" id="DDL_ChonToHopMonTuyenSinhRieng2" class="form-control" ng-options="item.ToHopMonName for item in dangky.ListChonToHopMonHocBa2 track by item.ToHopMonID"></select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 textinput">
+                                            <div id="divNganhTuyenSinhRieng3" class="input-group ">
+                                                <span class="input-group-addon">Ngành 3</span>
+                                                <select ng-model="kq.NganhHocBa3" id="DDL_NganhHocBa3" class="form-control" ng-change="getToHopMonHocBa2(kq.NganhHocBa3,3)" ng-options="item.NganhXetTuyenName for item in dangky.ListNganhXetTuyenHocBa track by item.NganhXetTuyenID"></select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 textinput">
+                                            <div id="divToHopMonTuyenSinhRieng3" class="input-group ">
+                                                <span class="input-group-addon">Tổ hợp môn</span>
+                                                <select ng-model="kq.ChonToHopMonHocBa3" id="DDL_ChonToHopMonTuyenSinhRieng3" class="form-control" ng-options="item.ToHopMonName for item in dangky.ListChonToHopMonHocBa3 track by item.ToHopMonID"></select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 textinput">
+                                        <div class="input-group">
+                                            <label class="checkbox-inline">
+                                                <input ng-model="kq.DangKyXetTuyenHocBaCheck2" type="checkbox" value=""> <b>Xét tuyển bằng Tổng điểm Trung bình 3 học kỳ (HK1, HK2 năm lớp 11, HK1 năm lớp 12)</b>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div ng-if="kq.DangKyXetTuyenHocBaCheck2">
+                                        <div class="col-sm-12 textinput">
+                                            <div id="divNganhTuyenSinhRieng12" class="input-group ">
+                                                <span class="input-group-addon">Ngành 1</span>
+                                                <select ng-model="kq.NganhHocBa12" id="DDL_NganhHocBa12" class="form-control" ng-options="item.NganhXetTuyenName for item in getListNganhXetTuyenHocBa3HocKy(dangky.ListNganhXetTuyenHocBa) track by item.NganhXetTuyenID"></select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 textinput">
+                                            <div id="divNganhTuyenSinhRieng22" class="input-group ">
+                                                <span class="input-group-addon">Ngành 2</span>
+                                                <select ng-model="kq.NganhHocBa22" id="DDL_NganhHocBa=22" class="form-control" ng-options="item.NganhXetTuyenName for item in getListNganhXetTuyenHocBa3HocKy(dangky.ListNganhXetTuyenHocBa) track by item.NganhXetTuyenID"></select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 textinput">
+                                            <div id="divNganhTuyenSinhRieng32" class="input-group ">
+                                                <span class="input-group-addon">Ngành 3</span>
+                                                <select ng-model="kq.NganhHocBa32" id="DDL_NganhHocBa=32" class="form-control" ng-options="item.NganhXetTuyenName for item in getListNganhXetTuyenHocBa3HocKy(dangky.ListNganhXetTuyenHocBa) track by item.NganhXetTuyenID"></select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <div class="col-sm-12 form-group">
+                                        <b>Lưu ý:</b> <i>Thí sinh có thể chọn một trong hai hoặc chọn cả hai để tăng cơ hội trúng tuyển</i>
+                                    </div>
+
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="blockTitle">
+                                <img class="img-responsive" src="/LandingPageDangKy/image/nhaphoc2018/thong-tin-khao-sat.png">
+                            </div>
+                            <div class="syllView">
+                                <div class="titleChid col-sm-12 text-center"><b>
+                                        Bạn biết đến HUTECH thông qua các kênh nào sau đây?
+                                        <i>(có thể click chọn nhiều kênh)</i>
+                                    </b></div>
+                                <div class="row">
+                                    <div id="checkkhaosat" class="col-sm-12">
+                                        <div class="col-sm-6 " style="padding:0 0 1% 0;" ng-repeat="TieuChiKhaoSatName in ListTieuChiKhaoSat">
+                                            <input id="{{TieuChiKhaoSatName}}" type="checkbox" name="selectedFruits[]" value="{{TieuChiKhaoSatName}}" ng-checked="kq.KetQuaKhaoSat.indexOf(TieuChiKhaoSatName) > -1" ng-click="toggleSelectionKhaoSat(TieuChiKhaoSatName)">
+                                            <label style="font-weight: normal;" for="{{TieuChiKhaoSatName}}">{{TieuChiKhaoSatName}}</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--
+                                <br />
+                                <div class="row">
+                                    <div class="col-sm-6 textinput">
+                                        <div class="input-group " ng-class="{ 'has-error': form.Capcha.$touched && form.Capcha.$error.required  }">
+                                            <span class="input-group-addon "><label id="CauHoiCapCha"></label></span>
+                                            <input ng-model="kq.Capcha" class="form-control" ng-minlength="2" required id="Capcha" name="Capcha" value="" type="text">
+                                            <a href="javascript:void(0)" class="input-group-addon" ng-click="DrawBotBoot()"><i class="fa fa-refresh"
+                                                    aria-hidden="true"></i></a>
+                                        </div>
+                                        <span class="field-validation-valid text-danger" id="val_CapCha"></span>
+
+                                    </div>
+                                </div>
+-->
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="text-center">
+                                <button type="submit" id="btnSaveThongTinNhapHocOnline" class="btn btn-danger">
+                                    Đăng ký
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row footer">
+        <div class="content">
+            <div class="col-sm-6 padingtext">
+                <b class="truso">Trụ sở :</b> 475A Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM
+                <span class="coso">
+                    <br>
+                    <b>Cơ sở 475B</b> : 475B Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM
+                    <br>
+                    <b>Cơ sở Ung Văn Khiêm</b> : 31/36 Ung Văn Khiêm, P.25, Q.Bình Thạnh, TP.HCM
+                </span>
+            </div>
+            <div class="col-sm-3 box-footer-2 ">
+                <span style="display: block;" class="phone">
+                    ĐT: (028) 5445 7777
+                </span> Fax: (028) 5445 4444
+                <span style="display: block;" class="emailtruong">Email: hutech@hutech.edu.vn</span>
+            </div>
+            <div class="col-sm-3 text-center  box-footer-3">
+                <a href="http://www.hutech.edu.vn/">Trang Chủ</a> | <a href="http://www.hutech.edu.vn/homepage/lien-he/so-do-den-truong">Sơ
+                    Đồ</a> | <a href="http://www.hutech.edu.vn/homepage/lien-he/so-do-den-truong">Liên Hệ</a>
+                <br>
+                <a href="https://www.facebook.com/hutechuniversity">
+                    <img src="http://www.hutech.edu.vn/images/img_blank.gif" class="icon_fb_small">
+                </a>
+                <a target="_blank" href="https://www.youtube.com/user/dhcongnghetphcm">
+                    <img src="http://www.hutech.edu.vn/images/img_blank.gif" class="icon_yt_small">
+                </a>
+                <a target="_blank" href="https://plus.google.com/+hutech">
+                    <img src="http://www.hutech.edu.vn/images/img_blank.gif" class="icon_gg_small">
+                </a>
+                <br>Bản quyền <span style="font-size: small;"><a
+                        href="http://www.hutech.edu.vn/admin"><strong>&copy;</strong></a></span> 2019 <a href="https://plus.google.com/u/0/+hutech" rel="author">HUTECH</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="watingid">
+        <div loading-indicator class="waiting-box"><span><img height="50px" src="/LandingPageDangKy/image/loading.svg" /></span></div>
+    </div>
+
+    <!-- Trigger the modal with a button -->
+    <!-- Modal kết quả -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">THÔNG BÁO</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="text-primary"><strong>Chúc mừng bạn đã đăng ký thành công!</strong></p>
+                    <p><strong>HUTECH sẽ liên hệ với bạn trong thời gian sớm nhất!</strong></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- template in -->
+    <div id="templatein" style="display: none;">
+        <style>
+            @media print {
+                .container,
+                table tr {
+                    font-size: 11px;
+                    line-height: 1.5;
+                }
+                .space {
+                    padding: 10px 0;
+                }
+                h2,
+                .h2 {
+                    font-size: 30px;
+                }
+                h1,
+                .h1,
+                h2,
+                .h2,
+                h3,
+                .h3,
+                h4 {
+                    margin-bottom: 10px;
+                    margin-top: 15px;
+                }
+                .col-sm-12 {
+                    width: 100%;
+                }
+                .col-sm-11 {
+                    width: 91.66666667%;
+                }
+                .col-sm-10 {
+                    width: 83.33333333%;
+                }
+                .col-sm-9 {
+                    width: 75%;
+                }
+                .col-sm-8 {
+                    width: 66.66666667%;
+                }
+                .col-sm-7 {
+                    width: 58.33333333%;
+                }
+                .col-sm-6 {
+                    width: 50%;
+                }
+                .col-sm-5 {
+                    width: 41.66666667%;
+                }
+                .col-sm-4 {
+                    width: 33.33333333%;
+                }
+                .col-sm-3 {
+                    width: 25%;
+                }
+                .col-sm-2 {
+                    width: 16.66666667%;
+                }
+                .col-sm-1 {
+                    width: 8.33333333%;
+                }
+                .col-sm-1,
+                .col-sm-2,
+                .col-sm-3,
+                .col-sm-4,
+                .col-sm-5,
+                .col-sm-6,
+                .col-sm-7,
+                .col-sm-8,
+                .col-sm-9,
+                .col-sm-10,
+                .col-sm-11,
+                .col-sm-12 {
+                    float: left;
+                }
+                .col-xs-1,
+                .col-sm-1,
+                .col-md-1,
+                .col-lg-1,
+                .col-xs-2,
+                .col-sm-2,
+                .col-md-2,
+                .col-lg-2,
+                .col-xs-3,
+                .col-sm-3,
+                .col-md-3,
+                .col-lg-3,
+                .col-xs-4,
+                .col-sm-4,
+                .col-md-4,
+                .col-lg-4,
+                .col-xs-5,
+                .col-sm-5,
+                .col-md-5,
+                .col-lg-5,
+                .col-xs-6,
+                .col-sm-6,
+                .col-md-6,
+                .col-lg-6,
+                .col-xs-7,
+                .col-sm-7,
+                .col-md-7,
+                .col-lg-7,
+                .col-xs-8,
+                .col-sm-8,
+                .col-md-8,
+                .col-lg-8,
+                .col-xs-9,
+                .col-sm-9,
+                .col-md-9,
+                .col-lg-9,
+                .col-xs-10,
+                .col-sm-10,
+                .col-md-10,
+                .col-lg-10,
+                .col-xs-11,
+                .col-sm-11,
+                .col-md-11,
+                .col-lg-11,
+                .col-xs-12,
+                .col-sm-12,
+                .col-md-12,
+                .col-lg-12 {
+                    min-height: 1px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    position: relative;
+                }
+                .text-center {
+                    text-align: center !important;
+                }
+                .modal-body {
+                    padding: 10px 20px !important;
+                    position: relative;
+                    /*height: 1350px;*/
+                }
+                .heightpage {
+                    height: 1340px;
+                    min-height: 1340px;
+                    display: block overflow: hidden;
+                }
+                .heightfix img {
+                    max-height: 1000px;
+                    width: 100% !important;
+                    height: auto !important;
+                }
+                .row {
+                    display: inline-table;
+                    width: 100%;
+                }
+                .clearfix::before,
+                .clearfix::after,
+                .dl-horizontal dd::before,
+                .dl-horizontal dd::after,
+                .container::before,
+                .container::after,
+                .container-fluid::before,
+                .container-fluid::after,
+                .row::before,
+                .row::after,
+                .form-horizontal .form-group::before,
+                .form-horizontal .form-group::after,
+                .btn-toolbar::before,
+                .btn-toolbar::after,
+                .btn-group-vertical > .btn-group::before,
+                .btn-group-vertical > .btn-group::after,
+                .nav::before,
+                .nav::after,
+                .navbar::before,
+                .navbar::after,
+                .navbar-header::before,
+                .navbar-header::after,
+                .navbar-collapse::before,
+                .navbar-collapse::after,
+                .pager::before,
+                .pager::after,
+                .panel-body::before,
+                .panel-body::after,
+                .modal-footer::before,
+                .modal-footer::after {
+                    content: '';
+                    display: table;
+                }
+                *::before,
+                *::after {
+                    box-sizing: border-box;
+                }
+                label {
+                    display: inline-block;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                    max-width: 100%;
+                }
+                .table-bordered {
+                    border: 1px solid #000;
+                }
+                .table {
+                    margin-bottom: 20px;
+                    max-width: 100%;
+                    width: 97%;
+                }
+                table {
+                    background-color: transparent;
+                    width: 100% !important;
+                }
+                table {
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                }
+                .table-bordered > thead > tr > th,
+                .table-bordered > tbody > tr > th,
+                .table-bordered > tfoot > tr > th,
+                .table-bordered > thead > tr > td,
+                .table-bordered > tbody > tr > td,
+                .table-bordered > tfoot > tr > td {
+                    border: 1px solid #000;
+                }
+                .table > thead > tr > th,
+                .table > tbody > tr > th,
+                .table > tfoot > tr > th,
+                .table > thead > tr > td,
+                .table > tbody > tr > td,
+                .table > tfoot > tr > td {
+                    border-top: 1px solid #000;
+                    /*line-height: 1.42857;*/
+                    padding: 4px;
+                    vertical-align: top;
+                }
+                th {
+                    text-align: left;
+                }
+                .form-group {
+                    margin-bottom: 0px;
+                }
+                thead {
+                    display: table-header-group;
+                }
+                thead,
+                tfoot {
+                    display: table-row-group;
+                }
+                tbody,
+                tr {
+                    page-break-inside: avoid;
+                    page-break-after: always;
+                }
+                .tdheight {
+                    min-height: auto;
+                }
+                .tdwidth {
+                    min-width: auto;
+                    padding: 0 5px;
+                }
+                .table {
+                    margin: 0 0 5px 0 !important;
+                }
+                .page {
+                    page-break-inside: avoid;
+                    page-break-after: always;
+                }
+            }
+            
+            .line {
+                position: relative;
+            }
+            
+            span.linedot {
+                display: flex
+            }
+            
+            span.linedot:after {
+                color: white;
+                content: '';
+                flex: 1;
+                border-bottom: 1px dotted #000;
+                /* ou 0 1px si border-style:ridge */
+                vertical-align: bottom;
+            }
+            
+            span.linedot:after {
+                right: 0;
+                left: auto;
+            }
+
+        </style>
+        <div class="row">
+            <div class="col-sm-12" id="DichVuSinhVien_BienBanTNMauCapNgam_DS_content">
+
+
+                <div class="container modal-body">
+                    <div class="row col-sm-12 nopadding">
+                        <div style="width:100px; border: 1px solid; padding: 0 5px; float: right;">
+                            Mã số ĐK: <span id="dk_nhap_hoc_id"></span>
+                        </div>
+                    </div>
+                    <div class="row col-sm-12" style="padding-top: 5px;">
+                        <table style="width:100%;5px;">
+                            <tr>
+                                <td style="text-align:center; font-weight: bold;">
+                                    BỘ GIÁO DỤC VÀ ĐÀO TẠO
+                                    <div>TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP. HCM</div>
+                                    <div style="width: 200px; border-bottom: 1px solid #000; margin: 5px auto;"></div>
+                                </td>
+                                <td style="text-align: center; font-weight: bold;">
+                                    CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                                    <div>Độc lập - Tự do - Hạnh phúc</div>
+                                    <div style="width: 200px; border-bottom: 1px solid #000; margin: 5px auto;"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                    <div class="row col-sm-12 text-center" style="padding:0;">
+                        <h3 style="margin-bottom: 0;">PHIẾU ĐĂNG KÝ DỰ THI & XÉT TUYỂN ĐẠI HỌC CHÍNH QUY NĂM 2020</h3>
+                        <div>(Dành cho phương thức xét tuyển học bạ)</div>
+                    </div>
+                    <div class="row form-group">
+                        <b>THÔNG TIN THÍ SINH</b>
+                    </div>
+                    <div class="row">
+                        <div class="line"><span class="linedot">1. Họ và tên (<i>Viết chữ in hoa</i>): <span style="text-transform: uppercase;"><b>{{kq.HoVaTen}}</b></span></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 nopadding">
+                            <div class="line"><span class="linedot">2. Ngày tháng năm sinh: <b>{{kq.NgaySinh}}</b></span></div>
+                        </div>
+                        <div class="col-sm-6 nopadding">
+                            <div class="line"><span class="linedot">Nam/nữ: <b>{{kq.GioiTinh.GioiTinhID != '' ? kq.GioiTinh.GioiTinhName : ''}}</b></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 nopadding">
+                            <div class="line"><span class="linedot">3. Nơi sinh (<i>Tỉnh /TP</i>): <b>{{kq.NoiSinh.TinhThanhID != '00' ? kq.NoiSinh.TinhThanhName : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-3 nopadding">
+                            <div class="line"><span class="linedot">Dân tộc: <b>{{kq.DanToc}}</b></span></div>
+                        </div>
+                        <div class="col-sm-3 nopadding">
+                            <div class="line"><span class="linedot">Tôn giáo: <b>{{kq.TonGiao}}</b></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 nopadding">
+                            <div class="line"><span class="linedot">4. CMND / Thẻ căn cước: <b>{{kq.SoCMND}}</b></span></div>
+                        </div>
+                        <div class="col-sm-3 nopadding">
+                            <div class="line"><span class="linedot">Ngày cấp: <b>{{kq.NgayCap}}</b></span></div>
+                        </div>
+                        <div class="col-sm-3 nopadding">
+                            <div class="line"><span class="linedot">Nơi cấp: <b>{{kq.NoiCap.TinhThanhID != '00' ? kq.NoiCap.TinhThanhName : ''}}</b></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="line"><span class="linedot">5. Hộ khẩu thường trú: <b>{{kq.HoKhau}}</b></span></div>
+                    </div>
+                    <!--
+                    <div class="row">
+                        (<i>ghi rõ xã (phường), huyện (quận), tỉnh (thành phố)</i>)
+                    </div>
+-->
+                    <div class="row">
+                        6. Nơi học THPT (<i>ghi rõ tên trường và địa chỉ nơi trường đóng: huyện (quận), tỉnh (thành phố)</i>)
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9 nopadding"></div>
+                        <div class="col-sm-1 nopadding text-center">Mã tỉnh</div>
+                        <div class="col-sm-2 nopadding text-center">Mã trường</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9 nopadding">
+                            <div class="line" style="padding: 0 0 0 20px;"><span class="linedot"><b>Năm lớp 10: 
+                            {{kq.MaTruongHocLop10.matruong != '0' ? kq.MaTruongHocLop10.tentruong + ' - ' + kq.NoiHocLop10.TinhThanhName : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-1 text-center nopadding">
+                            <table style="width:auto !important;margin: 0px auto !important;" cellpadding="0" cellspacing="0" border="0" class="table-bordered datatables">
+                                <tbody>
+                                    <tr>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.NoiHocLop10.TinhThanhID, 0, 2)}}
+                                            </div>
+                                        </td>
+                                        <td class="tdwidth">
+                                            <div class="tdheight  text-center">
+                                                {{getTachMaTinh(kq.NoiHocLop10.TinhThanhID, 1, 2)}}
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-sm-2 text-center nopadding">
+                            <table style="width:auto !important;margin: 0px auto !important;" cellpadding="0" cellspacing="0" border="0" class="table-bordered datatables">
+                                <tbody>
+                                    <tr>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.MaTruongHocLop10.matruong, 0, 3)}}
+                                            </div>
+                                        </td>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.MaTruongHocLop10.matruong, 1, 3)}}
+                                            </div>
+                                        </td>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.MaTruongHocLop10.matruong, 2, 3)}}
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9 nopadding">
+                            <div class="line" style="padding: 0 0 0 20px;"><span class="linedot"><b>Năm lớp 11: {{kq.MaTruongHocLop11.matruong != '0' ? kq.MaTruongHocLop11.tentruong + ' - ' + kq.NoiHocLop11.TinhThanhName : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-1 text-center nopadding">
+                            <table style="width:auto !important;margin: 0px auto !important;" cellpadding="0" cellspacing="0" border="0" class="table-bordered datatables">
+                                <tbody>
+                                    <tr>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.NoiHocLop11.TinhThanhID, 0, 2)}}
+                                            </div>
+                                        </td>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.NoiHocLop11.TinhThanhID, 1, 2)}}
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-sm-2 text-center nopadding">
+                            <table style="width:auto !important;margin: 0px auto !important;" cellpadding="0" cellspacing="0" border="0" class="table-bordered datatables">
+                                <tbody>
+                                    <tr>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.MaTruongHocLop11.matruong, 0, 3)}}
+                                            </div>
+                                        </td>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.MaTruongHocLop11.matruong, 1, 3)}}
+                                            </div>
+                                        </td>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.MaTruongHocLop11.matruong, 2, 3)}}
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9 nopadding">
+                            <div class="line" style="padding: 0 0 0 20px;"><span class="linedot"><b>Năm lớp 12: {{kq.MaTruongHocLop12.matruong != '0' ? kq.MaTruongHocLop12.tentruong + ' - ' + kq.NoiHocLop12.TinhThanhName : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-1 text-center nopadding">
+                            <table style="width:auto !important;margin: 0px auto !important;" cellpadding="0" cellspacing="0" border="0" class="table-bordered datatables">
+                                <tbody>
+                                    <tr>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.NoiHocLop12.TinhThanhID, 0, 2)}}
+                                            </div>
+                                        </td>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.NoiHocLop12.TinhThanhID, 1, 2)}}
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-sm-2 text-center nopadding">
+                            <table style="width:auto !important;margin: 0px auto !important;" cellpadding="0" cellspacing="0" border="0" class="table-bordered datatables">
+                                <tbody>
+                                    <tr>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.MaTruongHocLop12.matruong, 0, 3)}}
+                                            </div>
+                                        </td>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.MaTruongHocLop12.matruong, 1, 3)}}
+                                            </div>
+                                        </td>
+                                        <td class="tdwidth">
+                                            <div class="tdheight text-center">
+                                                {{getTachMaTinh(kq.MaTruongHocLop12.matruong, 2, 3)}}
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-sm-4 nopadding">
+                            <div class="line"><span class="linedot">7. Năm tốt nghiệp THPT: <b>{{kq.NamTotNghiep.NamID != '' ? kq.NamTotNghiep.NamName : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-4 nopadding">
+                            <div class="line"><span class="linedot"><b>Học lực lớp 12</b>: {{kq.HocLuc.MaHocLuc}}</span></div>
+                        </div>
+                        <div class="col-sm-4 nopadding">
+                            <div class="line"><span class="linedot"><b>Hạnh kiểm lớp 12</b>: {{kq.HanhKiem.MaHanhKiem}}</span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 nopadding">
+                            <div class="line"><span class="linedot">8. Đối tượng ưu tiên: <b>{{kq.DoiTuongUuTien.MaDoiTuong != '' ? kq.DoiTuongUuTien.MaDoiTuong : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-6 nopadding">
+                            <div class="line"><span class="linedot">9. Khu vực ưu tiên: <b>{{kq.KhuVucUuTien.MaKhuVuc != '' ? kq.KhuVucUuTien.MaKhuVuc : ''}}</b></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 nopadding">
+                            <div class="line"><span class="linedot">10. Điện thoại thí sinh: <b>{{kq.SoDienThoai}}</b></span></div>
+                        </div>
+                        <div class="col-sm-6 nopadding">
+                            <div class="line"><span class="linedot">11. Điện thoại phụ huynh: <b>{{kq.SoDienThoaiPhuHuynh}}</b></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="line"><span class="linedot">12. Địa chỉ liên hệ: <b>{{kq.DiaChiLienHe}}</b></span></div>
+                    </div>
+                    <b>THÔNG TIN THI & XÉT TUYỂN</b>
+                    <div class="row">
+                        Sau khi đã đọc và hiểu rõ các quy định về tiêu chí và điều kiện xét tuyển của Nhà trường, tôi đồng ý xét tuyển học bạ vào trình độ Đại học như sau:
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 nopadding">
+                            <label style="font-weight: normal;" ng-if="kq.DangKyXetTuyenHocBaCheck1">
+                                <input checked type="checkbox" value=""> <b>Xét tuyển bằng Tổng điểm Trung bình lớp 12 theo tổ hợp 3 môn</b>
+                            </label>
+                            <label style="font-weight: normal;" ng-if="!kq.DangKyXetTuyenHocBaCheck1">
+                                <input type="checkbox" value=""> <b>Xét tuyển bằng Tổng điểm Trung bình lớp 12 theo tổ hợp 3 môn</b>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 nopadding">
+                            <div class="line"><span class="linedot">13. Ngành 1: <b>{{kq.NganhHocBa1.NganhXetTuyenID != '' ? kq.NganhHocBa1.NganhXetTuyenName : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-4 nopadding">
+                            <div class="line"><span class="linedot">Mã ngành: <b>{{kq.NganhHocBa1.NganhXetTuyenID != '' ? kq.NganhHocBa1.NganhXetTuyenID : ''}}</b></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Mã tổ hợp: <b>{{kq.ChonToHopMonHocBa1.ToHopMonID != '' ? kq.ChonToHopMonHocBa1.ToHopMonID : ''}}</b>
+                        </div>
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Môn 1: <b>{{getTenMonTuToHop(kq.ChonToHopMonHocBa1.ToHopMonID, kq.ChonToHopMonHocBa1.ToHopMonName, 0)}}</b>
+                        </div>
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Môn 2: <b>{{getTenMonTuToHop(kq.ChonToHopMonHocBa1.ToHopMonID, kq.ChonToHopMonHocBa1.ToHopMonName, 1)}}</b>
+                        </div>
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Môn 3: <b>{{getTenMonTuToHop(kq.ChonToHopMonHocBa1.ToHopMonID, kq.ChonToHopMonHocBa1.ToHopMonName, 2)}}</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 nopadding">
+                            <div class="line"><span class="linedot">14. Ngành 2: (<i>nếu có</i>) <b>{{kq.NganhHocBa2.NganhXetTuyenID != '' ? kq.NganhHocBa2.NganhXetTuyenName : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-4 nopadding">
+                            <div class="line"><span class="linedot">Mã ngành: <b>{{kq.NganhHocBa2.NganhXetTuyenID != '' ? kq.NganhHocBa2.NganhXetTuyenID : ''}}</b></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Mã tổ hợp: <b>{{kq.ChonToHopMonHocBa2.ToHopMonID != '' ? kq.ChonToHopMonHocBa2.ToHopMonID : ''}}</b>
+                        </div>
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Môn 1: <b>{{getTenMonTuToHop(kq.ChonToHopMonHocBa2.ToHopMonID, kq.ChonToHopMonHocBa2.ToHopMonName, 0)}}</b>
+                        </div>
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Môn 2: <b>{{getTenMonTuToHop(kq.ChonToHopMonHocBa2.ToHopMonID, kq.ChonToHopMonHocBa2.ToHopMonName, 1)}}</b>
+                        </div>
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Môn 3: <b>{{getTenMonTuToHop(kq.ChonToHopMonHocBa2.ToHopMonID, kq.ChonToHopMonHocBa2.ToHopMonName, 2)}}</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 nopadding">
+                            <div class="line"><span class="linedot">15. Ngành 3: (<i>nếu có</i>) <b>{{kq.NganhHocBa3.NganhXetTuyenID != '' ? kq.NganhHocBa3.NganhXetTuyenName : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-4 nopadding">
+                            <div class="line"><span class="linedot">Mã ngành: <b>{{kq.NganhHocBa3.NganhXetTuyenID != '' ? kq.NganhHocBa3.NganhXetTuyenID : ''}}</b></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Mã tổ hợp: <b>{{kq.ChonToHopMonHocBa3.ToHopMonID != '' ? kq.ChonToHopMonHocBa3.ToHopMonID : ''}}</b>
+                        </div>
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Môn 1: <b>{{getTenMonTuToHop(kq.ChonToHopMonHocBa3.ToHopMonID, kq.ChonToHopMonHocBa3.ToHopMonName, 0)}}</b>
+                        </div>
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Môn 2: <b>{{getTenMonTuToHop(kq.ChonToHopMonHocBa3.ToHopMonID, kq.ChonToHopMonHocBa3.ToHopMonName, 1)}}</b>
+                        </div>
+                        <div class="col-sm-2 nopadding" style="padding: 0 0 0 20px !important;">
+                            Môn 3: <b>{{getTenMonTuToHop(kq.ChonToHopMonHocBa3.ToHopMonID, kq.ChonToHopMonHocBa3.ToHopMonName, 2)}}</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 nopadding">
+                            <label style="font-weight: normal;" ng-if="kq.DangKyXetTuyenHocBaCheck2">
+                                <input checked type="checkbox" value=""> <b>Xét tuyển bằng Tổng điểm Trung bình 3 học kỳ (HK1, HK2 năm lớp 11, HK1 năm lớp 12)</b>
+                            </label>
+                            <label style="font-weight: normal;" ng-if="!kq.DangKyXetTuyenHocBaCheck2">
+                                <input type="checkbox" value=""> <b>Xét tuyển bằng Tổng điểm Trung bình 3 học kỳ (HK1, HK2 năm lớp 11, HK1 năm lớp 12)</b>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 nopadding">
+                            <div class="line"><span class="linedot">16. Ngành 1: <b>{{kq.NganhHocBa12.NganhXetTuyenID != '' ? kq.NganhHocBa12.NganhXetTuyenName : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-4 nopadding">
+                            <div class="line"><span class="linedot">Mã ngành: <b>{{kq.NganhHocBa12.NganhXetTuyenID != '' ? kq.NganhHocBa12.NganhXetTuyenID : ''}}</b></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 nopadding">
+                            <div class="line"><span class="linedot">17. Ngành 2: <b>{{kq.NganhHocBa22.NganhXetTuyenID != '' ? kq.NganhHocBa22.NganhXetTuyenName : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-4 nopadding">
+                            <div class="line"><span class="linedot">Mã ngành: <b>{{kq.NganhHocBa22.NganhXetTuyenID != '' ? kq.NganhHocBa22.NganhXetTuyenID : ''}}</b></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 nopadding">
+                            <div class="line"><span class="linedot">18. Ngành 3: <b>{{kq.NganhHocBa32.NganhXetTuyenID != '' ? kq.NganhHocBa32.NganhXetTuyenName : ''}}</b></span></div>
+                        </div>
+                        <div class="col-sm-4 nopadding">
+                            <div class="line"><span class="linedot">Mã ngành: <b>{{kq.NganhHocBa32.NganhXetTuyenID != '' ? kq.NganhHocBa32.NganhXetTuyenID : ''}}</b></span></div>
+                        </div>
+                    </div>
+
+
+                    <!--
+                    <div class="row">
+                        <div class="col-sm-12 " style="padding: 5px 0 5px 20px !important;">
+                            <i>(Thí sinh có thể đăng ký tối đa 3 ngành nếu có nhu cầu)</i>
+                        </div>
+                    </div>
+-->
+                    <div class="row">
+                        Tôi xin cam đoan những lời khai trong Phiếu đăng ký xét tuyển này là đúng sự thật. Nếu sai tôi xin chịu xử lý theo Quy chế tuyển sinh hiện hành của Bộ Giáo dục và Đào tạo.
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 nopadding text-center">
+                        </div>
+                        <div class="col-sm-4 nopadding text-center">
+                            ......, Ngày ...... Tháng ...... Năm 2020
+                            <div><b>Chữ ký của thí sinh</b></div>
+                            <br/>
+                            <div>
+                                <span style="text-transform: uppercase;"><b>{{kq.HoVaTen}}</b></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div style="width:100%;border: 1px dotted #000;margin: 0 0 10px 0;"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-center"><b>PHẦN DÀNH CHO NHÀ TRƯỜNG</b></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 nopadding">
+                            <div>Hồ sơ gồm có:</div>
+                            <div>
+                                <div style="width: 10px;height: 10px; border: 1px solid #000;float: left;margin: 0 5px 0 0;"></div>1 bản photo công chứng học bạ THPT
+                            </div>
+                            <div>
+                                <div style="width: 10px;height: 10px; border: 1px solid #000;float: left;margin: 0 5px 0 0;"></div>1 bản photo công chứng (Bản sao) Bằng tốt nghiệp THPT
+                            </div>
+                            <div>
+                                <div style="width: 10px;height: 10px; border: 1px solid #000;float: left;margin: 0 5px 0 0;"></div>1 bản photo công chứng Giấy chứng nhận tốt nghiệp tạm thời
+                            </div>
+                            <div>
+                                <div style="width: 10px;height: 10px; border: 1px solid #000;float: left;margin: 0 5px 0 0;"></div>Giấy chứng nhận ưu tiên (nếu có)
+                            </div>
+                            <!--
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div style="width: 8px;height: 8px; border: 1px solid #000;float: left;margin: 0 5px 0 0;"></div>1 bản photo công chứng học bạ THPT
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="width: 8px;height: 8px; border: 1px solid #000;float: left;margin: 0 5px 0 0;"></div>1 bản photo công chứng (Bản sao) Bằng tốt nghiệp THPT
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="width: 8px;height: 8px; border: 1px solid #000;float: left;margin: 0 5px 0 0;"></div>1 bản photo công chứng Giấy chứng nhận tốt nghiệp tạm thời
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="width: 8px;height: 8px; border: 1px solid #000;float: left;margin: 0 5px 0 0;"></div>Giấy chứng nhận ưu tiên (nếu có)
+                                    </td>
+                                </tr>
+                            </table>
+-->
+                        </div>
+                        <div class="col-sm-4 nopadding text-center">
+                            ......, Ngày ...... Tháng ...... Năm 2020
+                            <div><b>Cán bộ nhận hồ sơ</b></div>
+                            <div>(Ký và ghi rõ họ tên)</div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+                <style>
+                    .textfor {
+                        width: 40px;
+                    }
+                    
+                    .nopadding {
+                        padding: 0px !important;
+                    }
+                    
+                    .text-center {
+                        text-align: center !important;
+                    }
+
+                </style>
+            </div>
+        </div>
+    </div>
+    <!--Chép đoạn này vào page để khai báo popup-->
+
+
+
+
+
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NPQLMC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NPQLMC');
+
+    </script>
+    <!-- End Google Tag Manager -->
+    <script>
+        $(document).ready(function() {
+            $('[data-includeHTML]').each(function() {
+                $(this).load($(this).attr('data-includeHTML'))
+            })
+        })
+
+    </script>
+
+    <script src="/LandingPageDangKy/js/angular.min.js"></script>
+</body>
+
+</html>

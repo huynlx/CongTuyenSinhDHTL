@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>JSON</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ </head>
+ <body>
+ </body>
+</html>
+
+<script>
+    $(document).ready(function(){
+        load_json_data();
+        function load_json_data() {
+
+            $.getJSON('tinhthanhpho.json', function (data) {
+                $.each(data, function(key, value){
+                    let query = "INSERT INTO tinh_thanh_pho VALUES ('" + value.ma_ttp +  "', '" + value.ten + "')";
+                    console.log(query);
+                });
+                //console.log(JSON.stringify(data));
+            });
+
+            $.getJSON('quanhuyen.json', function (data) {
+                $.each(data, function(key, value){
+                    let query = "INSERT INTO quan_huyen VALUES ('" + value.ma_qh +  "', '" + value.ten + "', '" + value.ma_ttp +"')";
+                    console.log(query);
+                });
+                //console.log(JSON.stringify(data));
+            }); 
+
+            $.getJSON('truong.json', function (data) {
+                $.each(data, function(key, value){
+                    let query = "INSERT INTO truong VALUES ('" + value.ma_truong +  "', '" + value.ten + "', '" + value.dia_chi +"')";
+                    console.log(query);
+                });
+                //console.log(JSON.stringify(data));
+            });
+
+        }
+    });
+</script>

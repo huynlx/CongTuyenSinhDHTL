@@ -1,0 +1,513 @@
+@import url("header.css");
+@import url("nav-bot.css");
+@import url("main.css");
+@import url("common.css");
+@import url("footer.css");
+.txt-top{padding-top: 20px;}
+.container{
+    padding: 0;
+}
+/*Nav*/
+header .me-nav {
+    background: linear-gradient(95.82deg, #007bff 0%, rgba(255, 255, 255, 0) 50.26%),
+    linear-gradient(264.18deg, #007bff 0%, rgba(255, 255, 255, 0) 50.26%), #FFFFFF;
+}
+header .me-nav .navbar-brand img{
+    height: 35px;
+}
+header .me-nav .dropdown .dropdown-menu{
+    background-color: #0069d9;
+}
+header .me-nav .dropdown-item:hover{
+    background-color: white;
+}
+header .me-nav #navcol-1 .nav-link:hover{
+    color: white;
+}
+header .me-nav #navcol-1 .btn{
+    border-radius: 25px;
+}
+
+/*Footer*/
+Footer{
+    background: linear-gradient(180deg, #292C2F 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 84.02%), #292C2F;
+}
+/*Form Đăng Nhập*/
+.me-form-login{
+    position: fixed;
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    top: 10%;
+    left: 38%;
+}
+.btn-close{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+/*Form Đăng Ký*/
+.Sex{
+    height: 100%;
+    width: 100%;
+}
+.Sex .form-check{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+/*Form TTCN*/
+.me-TTCN {
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.me-TTCN form.custom-form{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.me-TTCN img{
+    width: 100%;
+}
+.me-TTCN label{
+    padding: 0 10px;
+}
+.me-TTCN .row,.me-TTCN .col-sm-4,.me-TTCN .col-sm-6,.me-TTCN .col-md-6,.me-TTCN .col-lg-4,.me-TTCN .col-lg-8{
+    padding: 0;
+    margin: 0;
+}
+.me-TTCN #me-setting-ttcn{
+    border-radius: 30px;
+    position: absolute; /*lớp cha * relative */
+    right: 0;
+}
+
+/*Slide*/
+.carousel img{
+    width: 100%;
+    min-height: 200px;
+    max-height: 600px;
+}
+.carousel a{
+    color: red;
+    background-color: lightgrey;
+}
+.carousel p{
+    color: red;
+}
+
+/*fixed nav*/
+#nt-compact{
+    position: fixed;
+    display: block;
+    top: 250px;
+    max-height: 400px;
+    z-index: 10;
+}
+
+/*list du lich*/
+.article-list .articles .img-fluid{
+    border-radius: 20%;
+    min-height: 200px;
+    height: auto;
+    width: 100%;
+}
+.me-list-dd .intro h2{
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.me-list-dd .articles .item{
+    padding-top: 10px;
+}
+.me-list-dd .articles .item h3{
+    margin-top: 5px;
+}
+
+.me-list-dd .articles .img-fluid{
+    border-radius: 50%;
+    height: 50px;
+}
+
+/*list DL top 3*/
+.me-top3 .articles{
+    padding-bottom: 15px;
+    height: auto;
+}
+.me-top3 #top3show{
+    text-align: right;
+    width: 100%;
+}
+
+/*Fix dtm*/
+.me-fix-dtm{
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+}
+.me-fix-dtm .jumbotron-triangular-addon-wrapper{
+    position: fixed;
+    display: block;
+    top: 250px;
+    width: 100%;
+}
+
+.me-fix-dtm .jumbotron-triangular-addon-wrapper {
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color: #FFFFFF;}
+    25%  {background-color: #CCFFFF;}
+    50%  {background-color: #CCFFCC;}
+    100% {background-color: #FFFFFF;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: #FFFFFF;}
+    25%  {background-color: #CCFFFF;}
+    50%  {background-color: #CCFFCC;}
+    100% {background-color: #FFFFFF;}
+}
+
+.me-fix-dtm i {
+    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {color: white; transform: rotate(45deg);}
+    25%  {color: red}
+    50%  {color: yellow}
+    100% {color: green}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {color: white; transform: rotate(45deg);}
+    25%  {color: red}
+    50%  {color: yellow}
+    100% {color: green}
+}
+
+/*123 Pang*/
+.list123{
+    font-size: 1.5em;
+    color: #dc3545;
+    text-align: center;
+}
+
+
+/*Detail*/
+.me-detail{
+    width: 100%;
+    margin-top: 20px;
+}
+.me-detail .me-cmt{
+    padding-top: 30px;
+}
+
+/*Cẩm nang*/
+.me-cn .me-top-cn {
+    position: relative;
+}
+
+.me-cn .me-top-cn .word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.me-cn .me-top-cn img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+.me-cn .card {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+/*Drop menu*/
+.dropdown {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 120px;
+    box-shadow: 0px 3px 7px 0px #ccc;
+    z-index: 3;
+    left: -115%;
+    padding: 0;
+    color: #000;
+    background: #fff;
+    top: calc(100%);
+}
+
+.dropdown-content a {
+    color: black!important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px!important;
+}
+.dropdown-content a i{
+    margin-right: 5px;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* .dropdown-content :hover a{
+
+} */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*search*/
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    background-color: #007bff;
+    border-radius: 30px;
+}
+
+.search_input{
+    color: white;
+    border: 0;
+    background: none;
+    width: 0px;
+    caret-color:transparent;
+    transition: width 2s linear;
+}
+
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 250px;
+    caret-color:red;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+}
+
+.search_icon{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+}
+
+/* ******************DHTL*************************** */
+/* ************************************************* */
+/* ************PHÂN TRANG************ */
+.list-page{
+    text-align: center;
+}
+
+/* *************END****************** */
+
+#modal__login{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    display: none;
+}
+.modal__login-wrap{
+    position: relative;
+    top: 15%;
+    width: 600px;
+    background: rgb(248, 248, 248);
+    margin: 0 auto;
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    color: rgb(36, 36, 36);
+}
+.modal__login--left{
+    width: 40%;
+    background: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+.modal__login--right{
+    width: 60%;
+    background: rgb(255, 255, 255);
+    border-radius: 0px 6px 6px 0px;
+    margin: 20px;
+}
+.modal__login--right #form_login{
+    padding: 20px;
+}
+.modal__login-wrap .btn-close{
+    position: absolute;
+    top: -11px;
+    right: -10px;
+    border-radius: 50%;
+    border-width: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* ************Show-Menu-Moblie************ */
+.D_modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+.nav__menu{
+    padding: 0 15px;
+    display: none;
+}
+.nav__menu i{
+    color: #fff;
+}
+@keyframes width{
+    from {width:0;}
+    to {width:90%;}
+}
+
+.inner-menu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    transition: 0.3s;
+    z-index: 10;
+    animation: width;
+    animation-duration: .8s;
+}
+#menu-mb .login-menu{
+    background-color: rgb(24, 158, 255);
+    padding: 9px 15px;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#menu-mb .login-menu .fa-user-circle{
+    font-size: 35px;
+    display: inline-block;
+}
+#menu-mb .login-menu span{
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#menu-mb .login-menu .arrow-left{
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    display: inline-block;
+}
+#menu-mb .content-menu{
+    background-color: #fff;
+    height: 100vh;
+}
+#menu-mb .content-menu .nav-list{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#menu-mb .content-menu .nav-list li:hover{
+    background-color: #ececec;
+}
+#menu-mb .content-menu .nav-list li:hover a{
+    color: #007bff!important;
+}
+#menu-mb .content-menu .nav-list li:hover a{
+    color: #007bff!important;
+}
+#menu-mb .content-menu .nav-list a{
+    color: rgb(51, 51, 51);
+    display: flex;
+    padding: 12px 16px;
+    font-size: 15px;
+}
+#menu-mb .content-menu .nav-list span{
+    margin-left: 30px;
+}
+#menu-mb .content-menu img{
+    width: 25px;
+    height: 25px;
+}
+#menu-mb .content-menu .icon-xhb{
+    font-size: 23px!important;
+    color: rgb(117, 117, 117);
+}
+.search__menu-mb{
+    display: none;
+    position: absolute;
+    right: 70px;
+    color: #fff;
+}
+/* *************END*************************** */
+/* ***************Search Moblie **************/
+.search-mb{
+    display: none;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 1px 4px #ccc;
+}
+.search-mb .top_nav-mb{
+    height: 100%;
+    padding: 0 10px;
+}
+.search-mb input{
+    width: 88%;
+    height: 80%;
+    border: none;
+}
+.search-mb input:focus{
+    border-bottom: 1px solid #ccc;
+}
+.search-mb span i{
+    font-size: 15px;
+    color:rgb(51, 51, 51);
+}
+/* ***************Search Moblie************* */
+
+
+
+/* ******************DHTL__END********************** */

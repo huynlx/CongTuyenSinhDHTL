@@ -1,0 +1,258 @@
+[
+    {
+        "ma_ttp": "01",
+        "ten": "Hà Nội"
+    },
+    {
+        "ma_ttp": "02",
+        "ten": "Tp. Hồ Chí Minh"
+    },
+    {
+        "ma_ttp": "03",
+        "ten": "Hải Phòng"
+    },
+    {
+        "ma_ttp": "04",
+        "ten": "Đà Nẵng"
+    },
+    {
+        "ma_ttp": "05",
+        "ten": "Hà Giang"
+    },
+    {
+        "ma_ttp": "06",
+        "ten": "Cao Bằng"
+    },
+    {
+        "ma_ttp": "07",
+        "ten": "Lai Châu"
+    },
+    {
+        "ma_ttp": "08",
+        "ten": "Lào Cai"
+    },
+    {
+        "ma_ttp": "09",
+        "ten": "Tuyên Quang"
+    },
+    {
+        "ma_ttp": "10",
+        "ten": "Lạng Sơn"
+    },
+    {
+        "ma_ttp": "11",
+        "ten": "Bắc Kạn"
+    },
+    {
+        "ma_ttp": "12",
+        "ten": "Thái Nguyên"
+    },
+    {
+        "ma_ttp": "13",
+        "ten": "Yên Bái"
+    },
+    {
+        "ma_ttp": "14",
+        "ten": "Sơn La"
+    },
+    {
+        "ma_ttp": "15",
+        "ten": "Phú Thọ"
+    },
+    {
+        "ma_ttp": "16",
+        "ten": "Vĩnh Phúc"
+    },
+    {
+        "ma_ttp": "17",
+        "ten": "Quảng Ninh"
+    },
+    {
+        "ma_ttp": "18",
+        "ten": "Bắc Giang"
+    },
+    {
+        "ma_ttp": "19",
+        "ten": "Bắc Ninh"
+    },
+    {
+        "ma_ttp": "21",
+        "ten": "Hải Dương"
+    },
+    {
+        "ma_ttp": "22",
+        "ten": "Hưng Yên"
+    },
+    {
+        "ma_ttp": "23",
+        "ten": "Hoà Bình"
+    },
+    {
+        "ma_ttp": "24",
+        "ten": "Hà Nam"
+    },
+    {
+        "ma_ttp": "25",
+        "ten": "Nam Định"
+    },
+    {
+        "ma_ttp": "26",
+        "ten": "Thái Bình"
+    },
+    {
+        "ma_ttp": "27",
+        "ten": "Ninh Bình"
+    },
+    {
+        "ma_ttp": "28",
+        "ten": "Thanh Hoá"
+    },
+    {
+        "ma_ttp": "29",
+        "ten": "Nghệ An"
+    },
+    {
+        "ma_ttp": "30",
+        "ten": "Hà Tĩnh"
+    },
+    {
+        "ma_ttp": "31",
+        "ten": "Quảng Bình"
+    },
+    {
+        "ma_ttp": "32",
+        "ten": "Quảng Trị"
+    },
+    {
+        "ma_ttp": "33",
+        "ten": "Thừa Thiên -Huế"
+    },
+    {
+        "ma_ttp": "34",
+        "ten": "Quảng Nam"
+    },
+    {
+        "ma_ttp": "35",
+        "ten": "Quảng Ngãi"
+    },
+    {
+        "ma_ttp": "36",
+        "ten": "Kon Tum"
+    },
+    {
+        "ma_ttp": "37",
+        "ten": "Bình Định"
+    },
+    {
+        "ma_ttp": "38",
+        "ten": "Gia Lai"
+    },
+    {
+        "ma_ttp": "39",
+        "ten": "Phú Yên"
+    },
+    {
+        "ma_ttp": "40",
+        "ten": "Đắk Lắk"
+    },
+    {
+        "ma_ttp": "41",
+        "ten": "Khánh Hoà"
+    },
+    {
+        "ma_ttp": "42",
+        "ten": "Lâm Đồng"
+    },
+    {
+        "ma_ttp": "43",
+        "ten": "Bình Phước"
+    },
+    {
+        "ma_ttp": "44",
+        "ten": "Bình Dương"
+    },
+    {
+        "ma_ttp": "45",
+        "ten": "Ninh Thuận"
+    },
+    {
+        "ma_ttp": "46",
+        "ten": "Tây Ninh"
+    },
+    {
+        "ma_ttp": "47",
+        "ten": "Bình Thuận"
+    },
+    {
+        "ma_ttp": "48",
+        "ten": "Đồng Nai"
+    },
+    {
+        "ma_ttp": "49",
+        "ten": "Long An"
+    },
+    {
+        "ma_ttp": "50",
+        "ten": "Đồng Tháp"
+    },
+    {
+        "ma_ttp": "51",
+        "ten": "An Giang"
+    },
+    {
+        "ma_ttp": "52",
+        "ten": "Bà Rịa-Vũng Tàu"
+    },
+    {
+        "ma_ttp": "53",
+        "ten": "Tiền Giang"
+    },
+    {
+        "ma_ttp": "54",
+        "ten": "Kiên Giang"
+    },
+    {
+        "ma_ttp": "55",
+        "ten": "Cần Thơ"
+    },
+    {
+        "ma_ttp": "56",
+        "ten": "Bến Tre"
+    },
+    {
+        "ma_ttp": "57",
+        "ten": "Vĩnh Long"
+    },
+    {
+        "ma_ttp": "58",
+        "ten": "Trà Vinh"
+    },
+    {
+        "ma_ttp": "59",
+        "ten": "Sóc Trăng"
+    },
+    {
+        "ma_ttp": "60",
+        "ten": "Bạc Liêu"
+    },
+    {
+        "ma_ttp": "61",
+        "ten": "Cà Mau"
+    },
+    {
+        "ma_ttp": "62",
+        "ten": "Điện Biên"
+    },
+    {
+        "ma_ttp": "63",
+        "ten": "Đăk Nông"
+    },
+    {
+        "ma_ttp": "64",
+        "ten": "Hậu Giang"
+    },
+    {
+        "ma_ttp": "65",
+        "ten": "Cục nhà trường"
+    }
+]

@@ -1,0 +1,1627 @@
+[
+    {
+        "ma_truong": "10",
+        "ten": "GDNN-GDTX quận Ba Đình",
+        "dia_chi": "0101"
+    },
+    {
+        "ma_truong": "1027",
+        "ten": "CĐ nghề tỉnh Lào Cai",
+        "dia_chi": "0508"
+    },
+    {
+        "ma_truong": "1029",
+        "ten": "CĐ Cộng đồng Lào Cai",
+        "dia_chi": "0508"
+    },
+    {
+        "ma_truong": "1030",
+        "ten": "Cao Đẳng Sư Phạm Lào Cai",
+        "dia_chi": "0508"
+    },
+    {
+        "ma_truong": "1033",
+        "ten": "Cao đẳng Lào Cai",
+        "dia_chi": "0508"
+    },
+    {
+        "ma_truong": "105",
+        "ten": "GDNN-GDTX quận Thanh Xuân",
+        "dia_chi": "0701"
+    },
+    {
+        "ma_truong": "107",
+        "ten": "BTVH Công ty Xây dựng Công nghiệp",
+        "dia_chi": "0701"
+    },
+    {
+        "ma_truong": "11",
+        "ten": "GDTX Ba Đình",
+        "dia_chi": "0101"
+    },
+    {
+        "ma_truong": "1104",
+        "ten": "Cao đẳng nghề Lạng Sơn",
+        "dia_chi": "0110"
+    },
+    {
+        "ma_truong": "1152",
+        "ten": "CĐ Nghề Công nghệ và Nông Lâm Đông Bắc",
+        "dia_chi": "1110"
+    },
+    {
+        "ma_truong": "1154",
+        "ten": "CĐ Công nghệ và Nông lâm Đông Bắc",
+        "dia_chi": "1110"
+    },
+    {
+        "ma_truong": "1164",
+        "ten": "CĐ Nghề Dân tộc Nội trú Bắc Kạn",
+        "dia_chi": "0111"
+    },
+    {
+        "ma_truong": "118",
+        "ten": "GDNN-GDTX quận Hoàng Mai",
+        "dia_chi": "0801"
+    },
+    {
+        "ma_truong": "119",
+        "ten": "GDTX Hoàng Mai",
+        "dia_chi": "0801"
+    },
+    {
+        "ma_truong": "12",
+        "ten": "CĐ nghề Hùng Vương",
+        "dia_chi": "0101"
+    },
+    {
+        "ma_truong": "120",
+        "ten": "CĐ nghề kinh doanh và công nghệ Hà Nội",
+        "dia_chi": "0801"
+    },
+    {
+        "ma_truong": "1206",
+        "ten": "CĐ SP Thái Nguyên",
+        "dia_chi": "0112"
+    },
+    {
+        "ma_truong": "1207",
+        "ten": "CĐ Kinh tế Tài chính Thái Nguyên",
+        "dia_chi": "0112"
+    },
+    {
+        "ma_truong": "1208",
+        "ten": "CĐ Giao thông Vận tải miền núi",
+        "dia_chi": "0112"
+    },
+    {
+        "ma_truong": "1209",
+        "ten": "CĐ Y tế Thái Nguyên",
+        "dia_chi": "0112"
+    },
+    {
+        "ma_truong": "1210",
+        "ten": "CĐ Văn hoá Nghệ thuật Việt Bắc",
+        "dia_chi": "0112"
+    },
+    {
+        "ma_truong": "1211",
+        "ten": "CĐ Thương mại và Du lịch",
+        "dia_chi": "0112"
+    },
+    {
+        "ma_truong": "1214",
+        "ten": "CĐ Kinh tế kỹ thuật - ĐH TN",
+        "dia_chi": "0112"
+    },
+    {
+        "ma_truong": "1215",
+        "ten": "CĐ Nghề Cơ điện LK",
+        "dia_chi": "0112"
+    },
+    {
+        "ma_truong": "1219",
+        "ten": "CĐ nghề số 1- Bộ Quốc phòng",
+        "dia_chi": "0112"
+    },
+    {
+        "ma_truong": "1226",
+        "ten": "CĐ Công nghiệp Thái Nguyên",
+        "dia_chi": "0112"
+    },
+    {
+        "ma_truong": "1227",
+        "ten": "CĐ Nghề than khoáng sản Việt Nam",
+        "dia_chi": "0112"
+    },
+    {
+        "ma_truong": "1233",
+        "ten": "CĐ Cơ khí luyện kim",
+        "dia_chi": "0212"
+    },
+    {
+        "ma_truong": "1234",
+        "ten": "CĐ Công nghiệp Việt Đức",
+        "dia_chi": "0212"
+    },
+    {
+        "ma_truong": "1245",
+        "ten": "CĐ Công nghiệp Thái Nguyên",
+        "dia_chi": "0412"
+    },
+    {
+        "ma_truong": "1246",
+        "ten": "CĐ Nghề than khoáng sản Việt Nam",
+        "dia_chi": "0412"
+    },
+    {
+        "ma_truong": "1248",
+        "ten": "CĐ than khoáng sản Việt Nam",
+        "dia_chi": "0412"
+    },
+    {
+        "ma_truong": "1274",
+        "ten": "CĐ Công nghệ và Kinh tế Công nghiệp",
+        "dia_chi": "0912"
+    },
+    {
+        "ma_truong": "1281",
+        "ten": "CĐ Công nghệ và Kinh tế Công nghiệp",
+        "dia_chi": "0912"
+    },
+    {
+        "ma_truong": "1297",
+        "ten": "Cao đẳng Y tế Yên Bái",
+        "dia_chi": "0113"
+    },
+    {
+        "ma_truong": "1299",
+        "ten": "Bán công Phan Bội Châu",
+        "dia_chi": "0113"
+    },
+    {
+        "ma_truong": "13",
+        "ten": "CĐ nghề VIGLACERA",
+        "dia_chi": "0101"
+    },
+    {
+        "ma_truong": "134",
+        "ten": "GDNN-GDTX quận Long Biên",
+        "dia_chi": "0901"
+    },
+    {
+        "ma_truong": "135",
+        "ten": "GDTX Việt Hưng",
+        "dia_chi": "0901"
+    },
+    {
+        "ma_truong": "137",
+        "ten": "CĐ nghề đường sắt I",
+        "dia_chi": "0901"
+    },
+    {
+        "ma_truong": "138",
+        "ten": "CĐ nghề Long Biên",
+        "dia_chi": "0901"
+    },
+    {
+        "ma_truong": "1441",
+        "ten": "Cao đẳng Kinh tế - Kỹ thuật Phú Thọ",
+        "dia_chi": "0115"
+    },
+    {
+        "ma_truong": "149",
+        "ten": "CĐ nghề Văn Lang Hà Nội",
+        "dia_chi": "1001"
+    },
+    {
+        "ma_truong": "1510",
+        "ten": "CĐ nghề Việt Đức",
+        "dia_chi": "0116"
+    },
+    {
+        "ma_truong": "1518",
+        "ten": "CĐ Kinh tế Kỹ thuật Vĩnh Phúc",
+        "dia_chi": "0116"
+    },
+    {
+        "ma_truong": "1521",
+        "ten": "CĐ nghề Vĩnh Phúc",
+        "dia_chi": "0116"
+    },
+    {
+        "ma_truong": "1554",
+        "ten": "CĐ cơ khí nông nghiệp",
+        "dia_chi": "0616"
+    },
+    {
+        "ma_truong": "1568",
+        "ten": "CĐ Công nghiệp và Thương mại",
+        "dia_chi": "0816"
+    },
+    {
+        "ma_truong": "157",
+        "ten": "GDNN-GDTX huyện Thanh Trì",
+        "dia_chi": "1101"
+    },
+    {
+        "ma_truong": "1570",
+        "ten": "CĐ nghề Việt Xô số 1",
+        "dia_chi": "0816"
+    },
+    {
+        "ma_truong": "158",
+        "ten": "GDTX Đông Mỹ",
+        "dia_chi": "1101"
+    },
+    {
+        "ma_truong": "1599",
+        "ten": "CĐ Công nghiệp Cẩm Phả",
+        "dia_chi": "0217"
+    },
+    {
+        "ma_truong": "1605",
+        "ten": "CĐ Công nghiệp và Xây dựng",
+        "dia_chi": "0317"
+    },
+    {
+        "ma_truong": "1671",
+        "ten": "CĐ Nghề Bắc Giang",
+        "dia_chi": "0118"
+    },
+    {
+        "ma_truong": "1672",
+        "ten": "CĐ Kỹ thuật Công nghiệp",
+        "dia_chi": "0118"
+    },
+    {
+        "ma_truong": "1678",
+        "ten": "CĐ nghề Công nghệ Việt Hàn Bắc Giang",
+        "dia_chi": "0118"
+    },
+    {
+        "ma_truong": "17",
+        "ten": "GDNN-GDTX Nguyễn Văn Tố quận Hoàn Kiếm",
+        "dia_chi": "0201"
+    },
+    {
+        "ma_truong": "170",
+        "ten": "GDNN-GDTX huyện Gia Lâm",
+        "dia_chi": "1201"
+    },
+    {
+        "ma_truong": "171",
+        "ten": "GDTX Đình Xuyên",
+        "dia_chi": "1201"
+    },
+    {
+        "ma_truong": "172",
+        "ten": "GDTX Phú Thị",
+        "dia_chi": "1201"
+    },
+    {
+        "ma_truong": "173",
+        "ten": "CĐ nghề Kỹ thuật Mỹ nghệ Việt Nam",
+        "dia_chi": "1201"
+    },
+    {
+        "ma_truong": "1764",
+        "ten": "CĐ Nghề Kinh tế Kỹ thuật Bắc Ninh",
+        "dia_chi": "0119"
+    },
+    {
+        "ma_truong": "1765",
+        "ten": "CĐ Nghề Cơ điện Xây dựng Bắc Ninh",
+        "dia_chi": "0119"
+    },
+    {
+        "ma_truong": "1769",
+        "ten": "Cao đẳng thống kê",
+        "dia_chi": "0119"
+    },
+    {
+        "ma_truong": "1771",
+        "ten": "Cao đẳng Công nghiệp Bắc Ninh",
+        "dia_chi": "0119"
+    },
+    {
+        "ma_truong": "18",
+        "ten": "GDTX Nguyễn Văn Tố",
+        "dia_chi": "0201"
+    },
+    {
+        "ma_truong": "1800",
+        "ten": "CĐ Kinh tế, Kỹ thuật và Thủy sản",
+        "dia_chi": "0519"
+    },
+    {
+        "ma_truong": "1801",
+        "ten": "CĐ Công nghiệp Hưng Yên (cơ sở 2)",
+        "dia_chi": "0519"
+    },
+    {
+        "ma_truong": "187",
+        "ten": "GDNN-GDTX huyện Đông Anh",
+        "dia_chi": "1301"
+    },
+    {
+        "ma_truong": "188",
+        "ten": "GDTX Đông Anh",
+        "dia_chi": "1301"
+    },
+    {
+        "ma_truong": "189",
+        "ten": "CĐ nghề Kỹ thuật Công nghệ",
+        "dia_chi": "1301"
+    },
+    {
+        "ma_truong": "19",
+        "ten": "Cao đẳng Nghệ thuật Hà Nội",
+        "dia_chi": "0201"
+    },
+    {
+        "ma_truong": "190",
+        "ten": "CĐ nghề Thăng Long",
+        "dia_chi": "1301"
+    },
+    {
+        "ma_truong": "1948",
+        "ten": "Cao đẳng Nghề Cơ điện và Thủy lợi",
+        "dia_chi": "0422"
+    },
+    {
+        "ma_truong": "1950",
+        "ten": "Cao đẳng Cơ điện và Thủy Lợi",
+        "dia_chi": "0422"
+    },
+    {
+        "ma_truong": "1951",
+        "ten": "Cao đẳng Kinh tế Kỹ thuật Tô Hiệu Hưng Yên",
+        "dia_chi": "0422"
+    },
+    {
+        "ma_truong": "1958",
+        "ten": "Cao đẳng Công Nghiệp Hưng Yên",
+        "dia_chi": "0522"
+    },
+    {
+        "ma_truong": "1979",
+        "ten": "Cao đẳng Hàng Không",
+        "dia_chi": "0822"
+    },
+    {
+        "ma_truong": "1988",
+        "ten": "Cao đẳng ASEAN",
+        "dia_chi": "0922"
+    },
+    {
+        "ma_truong": "2011",
+        "ten": "Cao Đẳng Kinh tế -Kỹ Thuật HB",
+        "dia_chi": "0123"
+    },
+    {
+        "ma_truong": "2012",
+        "ten": "CĐ nghề Hòa Bình",
+        "dia_chi": "0123"
+    },
+    {
+        "ma_truong": "2013",
+        "ten": "CĐ nghề Sông Đà",
+        "dia_chi": "0123"
+    },
+    {
+        "ma_truong": "2014",
+        "ten": "Cao đẳng Nghệ thuật Tây Bắc",
+        "dia_chi": "0123"
+    },
+    {
+        "ma_truong": "205",
+        "ten": "GDNN-GDTX huyện Sóc Sơn",
+        "dia_chi": "1401"
+    },
+    {
+        "ma_truong": "2052",
+        "ten": "CĐ nghề Cơ điện Tây Bắc",
+        "dia_chi": "0923"
+    },
+    {
+        "ma_truong": "206",
+        "ten": "GDTX Sóc Sơn",
+        "dia_chi": "1401"
+    },
+    {
+        "ma_truong": "2067",
+        "ten": "Cao đẳng nghề Hà Nam",
+        "dia_chi": "0124"
+    },
+    {
+        "ma_truong": "2069",
+        "ten": "Cao đẳng Thủy lợi Bắc Bộ",
+        "dia_chi": "0124"
+    },
+    {
+        "ma_truong": "207",
+        "ten": "CĐ nghề điện",
+        "dia_chi": "1401"
+    },
+    {
+        "ma_truong": "2113",
+        "ten": "CĐ Xây dựng Nam Định",
+        "dia_chi": "0125"
+    },
+    {
+        "ma_truong": "2114",
+        "ten": "CĐ nghề Nam Định",
+        "dia_chi": "0125"
+    },
+    {
+        "ma_truong": "2115",
+        "ten": "Cao đẳng Công nghiệp Dệt May Nam Định",
+        "dia_chi": "0125"
+    },
+    {
+        "ma_truong": "2157",
+        "ten": "CĐ Công nghiệp Nam Định",
+        "dia_chi": "0625"
+    },
+    {
+        "ma_truong": "220",
+        "ten": "GDNN-GDTX quận Hà Đông",
+        "dia_chi": "1501"
+    },
+    {
+        "ma_truong": "2205",
+        "ten": "Cao đẳng nghề Thái Bình",
+        "dia_chi": "0126"
+    },
+    {
+        "ma_truong": "2206",
+        "ten": "Cao đẳng nghề số 19 - Bộ Quốc phòng",
+        "dia_chi": "0126"
+    },
+    {
+        "ma_truong": "221",
+        "ten": "GDTX Hà Tây",
+        "dia_chi": "1501"
+    },
+    {
+        "ma_truong": "224",
+        "ten": "Hữu Nghị 80",
+        "dia_chi": "1601"
+    },
+    {
+        "ma_truong": "2251",
+        "ten": "CĐ Y tế Ninh Bình",
+        "dia_chi": "0127"
+    },
+    {
+        "ma_truong": "2259",
+        "ten": "GDTX Ninh Bình",
+        "dia_chi": "0127"
+    },
+    {
+        "ma_truong": "2260",
+        "ten": "CĐ nghề LiLaMa 1",
+        "dia_chi": "0127"
+    },
+    {
+        "ma_truong": "2269",
+        "ten": "CĐ nghề Cơ điện - Xây dựng Tam Điệp",
+        "dia_chi": "0227"
+    },
+    {
+        "ma_truong": "2270",
+        "ten": "CĐ nghề Cơ giới Ninh Bình",
+        "dia_chi": "0227"
+    },
+    {
+        "ma_truong": "2274",
+        "ten": "GDNN - GDTX Tam Điệp",
+        "dia_chi": "0227"
+    },
+    {
+        "ma_truong": "2281",
+        "ten": "GDNN - GDTX Nho Quan",
+        "dia_chi": "0327"
+    },
+    {
+        "ma_truong": "2286",
+        "ten": "GDNN - GDTX Gia Viễn",
+        "dia_chi": "0427"
+    },
+    {
+        "ma_truong": "2291",
+        "ten": "GDNN - GDTX Hoa Lư",
+        "dia_chi": "0527"
+    },
+    {
+        "ma_truong": "2297",
+        "ten": "GDNN - GDTX Yên Mô",
+        "dia_chi": "0627"
+    },
+    {
+        "ma_truong": "230",
+        "ten": "GDNN-GDTX thị xã Sơn Tây",
+        "dia_chi": "1601"
+    },
+    {
+        "ma_truong": "2303",
+        "ten": "GDNN - GDTX Kim Sơn",
+        "dia_chi": "0727"
+    },
+    {
+        "ma_truong": "2309",
+        "ten": "GDNN - GDTX Yên Khánh",
+        "dia_chi": "0827"
+    },
+    {
+        "ma_truong": "231",
+        "ten": "GDTX Sơn Tây",
+        "dia_chi": "1601"
+    },
+    {
+        "ma_truong": "2328",
+        "ten": "CĐN NN - PTNT T.Hóa",
+        "dia_chi": "0128"
+    },
+    {
+        "ma_truong": "2330",
+        "ten": "CĐ nghề CN T.Hóa",
+        "dia_chi": "0128"
+    },
+    {
+        "ma_truong": "245",
+        "ten": "GDNN-GDTX huyện Ba Vì",
+        "dia_chi": "1701"
+    },
+    {
+        "ma_truong": "2455",
+        "ten": "CĐ nghề Nghi Sơn",
+        "dia_chi": "2628"
+    },
+    {
+        "ma_truong": "246",
+        "ten": "GDTX Ba Vì",
+        "dia_chi": "1701"
+    },
+    {
+        "ma_truong": "247",
+        "ten": "CĐ nghề Giao thông vận tải Trung ương I",
+        "dia_chi": "1701"
+    },
+    {
+        "ma_truong": "2470",
+        "ten": "Chuyên Toán ĐH Vinh",
+        "dia_chi": "0129"
+    },
+    {
+        "ma_truong": "2479",
+        "ten": "CĐ Nghề Kỹ thuật - Công nghiệp Việt Nam - Hàn Quốc",
+        "dia_chi": "0129"
+    },
+    {
+        "ma_truong": "248",
+        "ten": "Hữu Nghị T78",
+        "dia_chi": "1801"
+    },
+    {
+        "ma_truong": "2480",
+        "ten": "CĐ Nghề Kỹ thuật Việt - Đức",
+        "dia_chi": "0129"
+    },
+    {
+        "ma_truong": "2491",
+        "ten": "CĐ Nghề Du lịch - Thương mại Nghệ An",
+        "dia_chi": "0229"
+    },
+    {
+        "ma_truong": "253",
+        "ten": "GDNN-GDTX huyện Phúc Thọ",
+        "dia_chi": "1801"
+    },
+    {
+        "ma_truong": "254",
+        "ten": "GDTX Phúc Thọ",
+        "dia_chi": "1801"
+    },
+    {
+        "ma_truong": "261",
+        "ten": "GDNN-GDTX huyện Thạch Thất",
+        "dia_chi": "1901"
+    },
+    {
+        "ma_truong": "2618",
+        "ten": "Cao đẳng Công nghệ Hà Tĩnh",
+        "dia_chi": "0130"
+    },
+    {
+        "ma_truong": "2620",
+        "ten": "Cao đẳng Kỹ thuật Việt - Đức Hà Tĩnh",
+        "dia_chi": "0130"
+    },
+    {
+        "ma_truong": "2622",
+        "ten": "Cao đẳng nghề Việt Đức Hà Tĩnh",
+        "dia_chi": "0130"
+    },
+    {
+        "ma_truong": "2691",
+        "ten": "Cao đẳng Công nghệ Hà Tĩnh (cơ sở 2)",
+        "dia_chi": "1330"
+    },
+    {
+        "ma_truong": "2695",
+        "ten": "Cao đẳng Nghề công nghệ Hà Tĩnh (cơ sở 2-đến 4/2017)",
+        "dia_chi": "1330"
+    },
+    {
+        "ma_truong": "2703",
+        "ten": "Phổ thông dân tộc nội trú tỉnh",
+        "dia_chi": "0131"
+    },
+    {
+        "ma_truong": "2705",
+        "ten": "Cao đẳng nghề Quảng Bình",
+        "dia_chi": "0131"
+    },
+    {
+        "ma_truong": "271",
+        "ten": "GDNN-GDTX huyện Quốc Oai",
+        "dia_chi": "2001"
+    },
+    {
+        "ma_truong": "2711",
+        "ten": "Cao đẳng Sư phạm Quảng Bình",
+        "dia_chi": "0131"
+    },
+    {
+        "ma_truong": "272",
+        "ten": "GDTX Quốc Oai",
+        "dia_chi": "2001"
+    },
+    {
+        "ma_truong": "282",
+        "ten": "GDNN-GDTX huyện Chương Mỹ",
+        "dia_chi": "2101"
+    },
+    {
+        "ma_truong": "283",
+        "ten": "GDTX Chương Mỹ",
+        "dia_chi": "2101"
+    },
+    {
+        "ma_truong": "2850",
+        "ten": "Khối chuyên ĐHKH Huế",
+        "dia_chi": "0133"
+    },
+    {
+        "ma_truong": "2851",
+        "ten": "Phổ thông Dân tộc Nội trú Tỉnh",
+        "dia_chi": "0133"
+    },
+    {
+        "ma_truong": "2855",
+        "ten": "Học viện Âm nhạc Huế",
+        "dia_chi": "0133"
+    },
+    {
+        "ma_truong": "2856",
+        "ten": "CĐ Công nghiệp Huế",
+        "dia_chi": "0133"
+    },
+    {
+        "ma_truong": "2861",
+        "ten": "CĐ Nghề Du lịch Huế",
+        "dia_chi": "0133"
+    },
+    {
+        "ma_truong": "2863",
+        "ten": "CĐ Nghề số 23 Bộ Quốc phòng",
+        "dia_chi": "0133"
+    },
+    {
+        "ma_truong": "2871",
+        "ten": "CĐ Nghề Nguyễn Tri Phương",
+        "dia_chi": "0233"
+    },
+    {
+        "ma_truong": "288",
+        "ten": "GDNN-GDTX huyện Đan Phượng",
+        "dia_chi": "2201"
+    },
+    {
+        "ma_truong": "289",
+        "ten": "GDTX Đan Phượng",
+        "dia_chi": "2201"
+    },
+    {
+        "ma_truong": "2899",
+        "ten": "CĐ Nghề Thừa Thiên Huế",
+        "dia_chi": "0633"
+    },
+    {
+        "ma_truong": "2927",
+        "ten": "CĐ Kinh tế - Kỹ thuật Quảng Nam",
+        "dia_chi": "0134"
+    },
+    {
+        "ma_truong": "295",
+        "ten": "GDNN-GDTX huyện Hoài Đức",
+        "dia_chi": "2301"
+    },
+    {
+        "ma_truong": "296",
+        "ten": "GDTX Hoài Đức",
+        "dia_chi": "2301"
+    },
+    {
+        "ma_truong": "297",
+        "ten": "CĐ nghề bách Khoa",
+        "dia_chi": "2301"
+    },
+    {
+        "ma_truong": "306",
+        "ten": "GDNN-GDTX huyện Thanh Oai",
+        "dia_chi": "2401"
+    },
+    {
+        "ma_truong": "308",
+        "ten": "CĐ nghề kỹ thuật - công nghệ -kinh tế S",
+        "dia_chi": "2401"
+    },
+    {
+        "ma_truong": "3094",
+        "ten": "CĐ Sư phạm Kon Tum",
+        "dia_chi": "0136"
+    },
+    {
+        "ma_truong": "3095",
+        "ten": "CĐ Kinh tế - Kỹ thuật Kon Tum",
+        "dia_chi": "0136"
+    },
+    {
+        "ma_truong": "31",
+        "ten": "GDNN-GDTX quận Hai Bà Trưng",
+        "dia_chi": "0301"
+    },
+    {
+        "ma_truong": "315",
+        "ten": "GDNN-GDTX huyện Mỹ Đức",
+        "dia_chi": "2501"
+    },
+    {
+        "ma_truong": "316",
+        "ten": "GDTX Mỹ Đức",
+        "dia_chi": "2501"
+    },
+    {
+        "ma_truong": "3165",
+        "ten": "CĐ nghề Quy Nhơn",
+        "dia_chi": "0137"
+    },
+    {
+        "ma_truong": "3166",
+        "ten": "CĐ nghề cơ điện xây dựng và Nông lâm Trung bộ",
+        "dia_chi": "0137"
+    },
+    {
+        "ma_truong": "32",
+        "ten": "GDTX Hai Bà Trưng",
+        "dia_chi": "0301"
+    },
+    {
+        "ma_truong": "324",
+        "ten": "GDNN-GDTX huyện Ứng Hòa",
+        "dia_chi": "2601"
+    },
+    {
+        "ma_truong": "33",
+        "ten": "CĐ nghề Bách Khoa Hà Nội",
+        "dia_chi": "0301"
+    },
+    {
+        "ma_truong": "332",
+        "ten": "GDNN-GDTX huyện Thường Tín",
+        "dia_chi": "2701"
+    },
+    {
+        "ma_truong": "3343",
+        "ten": "Cao đẳng nghề Phú Yên",
+        "dia_chi": "0139"
+    },
+    {
+        "ma_truong": "3345",
+        "ten": "Cao đẳng Công thương Miền Trung",
+        "dia_chi": "0139"
+    },
+    {
+        "ma_truong": "3386",
+        "ten": "Cấp 2-3 Sơn Thành",
+        "dia_chi": "0939"
+    },
+    {
+        "ma_truong": "34",
+        "ten": "CĐ nghề KT công nghệ LOD -Phân hiệu HN",
+        "dia_chi": "0301"
+    },
+    {
+        "ma_truong": "3400",
+        "ten": "CĐ Kỹ thuật Đắk Lắk",
+        "dia_chi": "0140"
+    },
+    {
+        "ma_truong": "3401",
+        "ten": "CĐ Công nghệ Tây Nguyên",
+        "dia_chi": "0140"
+    },
+    {
+        "ma_truong": "341",
+        "ten": "GDNN-GDTX huyện Phú Xuyên",
+        "dia_chi": "2801"
+    },
+    {
+        "ma_truong": "342",
+        "ten": "GDTX Phú Xuyên",
+        "dia_chi": "2801"
+    },
+    {
+        "ma_truong": "3477",
+        "ten": "Cao đẳng nghề Nha Trang",
+        "dia_chi": "0141"
+    },
+    {
+        "ma_truong": "3491",
+        "ten": "KTTH-HN tỉnh Khánh Hòa",
+        "dia_chi": "0141"
+    },
+    {
+        "ma_truong": "3492",
+        "ten": "GDTX&HN Nha Trang",
+        "dia_chi": "0141"
+    },
+    {
+        "ma_truong": "3493",
+        "ten": "Phổ thông Dân tộc Nội trú tỉnh Khánh Hòa",
+        "dia_chi": "0141"
+    },
+    {
+        "ma_truong": "3494",
+        "ten": "Cao đẳng nghề Quốc tế Nam Việt",
+        "dia_chi": "0141"
+    },
+    {
+        "ma_truong": "352",
+        "ten": "GDNN-GDTX huyện Mê Linh",
+        "dia_chi": "2901"
+    },
+    {
+        "ma_truong": "353",
+        "ten": "GDTX Mê Linh",
+        "dia_chi": "2901"
+    },
+    {
+        "ma_truong": "3557",
+        "ten": "CĐ Y tế Lâm Đồng",
+        "dia_chi": "0142"
+    },
+    {
+        "ma_truong": "3558",
+        "ten": "Cao đẳng nghề Du lịch Đà Lạt",
+        "dia_chi": "0142"
+    },
+    {
+        "ma_truong": "3559",
+        "ten": "Phân hiệu TC Văn thư lưu trữ TW",
+        "dia_chi": "0142"
+    },
+    {
+        "ma_truong": "3560",
+        "ten": "Cao đẳng nghề Đà Lạt",
+        "dia_chi": "0142"
+    },
+    {
+        "ma_truong": "3561",
+        "ten": "Cao đẳng sư phạm Đà Lạt",
+        "dia_chi": "0142"
+    },
+    {
+        "ma_truong": "3566",
+        "ten": "Dân lập Lê Lợi - Bảo Lộc",
+        "dia_chi": "0242"
+    },
+    {
+        "ma_truong": "3575",
+        "ten": "CĐ Công nghệ & Kinh tế Bảo Lộc",
+        "dia_chi": "0242"
+    },
+    {
+        "ma_truong": "366",
+        "ten": "GDNN-GDTX quận Nam Từ Liêm",
+        "dia_chi": "3001"
+    },
+    {
+        "ma_truong": "367",
+        "ten": "GDTX Từ Liêm",
+        "dia_chi": "3001"
+    },
+    {
+        "ma_truong": "3671",
+        "ten": "Cao đẳng nghề Bình Phước",
+        "dia_chi": "0343"
+    },
+    {
+        "ma_truong": "368",
+        "ten": "CĐ nghề công nghệ cao Hà Nội",
+        "dia_chi": "3001"
+    },
+    {
+        "ma_truong": "3737",
+        "ten": "CĐN Việt Nam - Singapore",
+        "dia_chi": "0444"
+    },
+    {
+        "ma_truong": "3747",
+        "ten": "CĐN Đồng An",
+        "dia_chi": "0544"
+    },
+    {
+        "ma_truong": "3748",
+        "ten": "CĐN Công nghệ và NL Nam Bộ",
+        "dia_chi": "0544"
+    },
+    {
+        "ma_truong": "3749",
+        "ten": "Phân hiệu CĐN Đường sắt phía Nam",
+        "dia_chi": "0544"
+    },
+    {
+        "ma_truong": "3809",
+        "ten": "Phổ thông dân tộc nội trú Tây Ninh",
+        "dia_chi": "0146"
+    },
+    {
+        "ma_truong": "3813",
+        "ten": "Cao đẳng Nghề Tây Ninh",
+        "dia_chi": "0146"
+    },
+    {
+        "ma_truong": "3869",
+        "ten": "CĐ Nghề Bình Thuận",
+        "dia_chi": "0147"
+    },
+    {
+        "ma_truong": "3874",
+        "ten": "CĐ Cộng đồng Bình Thuận",
+        "dia_chi": "0147"
+    },
+    {
+        "ma_truong": "3875",
+        "ten": "CĐ Y tế Bình Thuận",
+        "dia_chi": "0147"
+    },
+    {
+        "ma_truong": "3914",
+        "ten": "Bổ Túc Văn Hóa Tỉnh",
+        "dia_chi": "0148"
+    },
+    {
+        "ma_truong": "3931",
+        "ten": "CĐ nghề Đồng Nai",
+        "dia_chi": "0148"
+    },
+    {
+        "ma_truong": "3932",
+        "ten": "CĐ nghề Miền Đông Nam Bộ",
+        "dia_chi": "0148"
+    },
+    {
+        "ma_truong": "3945",
+        "ten": "Cao Đẳng Nghề Số 8",
+        "dia_chi": "0148"
+    },
+    {
+        "ma_truong": "3947",
+        "ten": "CĐ kỹ thuật Đồng Nai",
+        "dia_chi": "0148"
+    },
+    {
+        "ma_truong": "3997",
+        "ten": "CĐ Công Nghệ Quốc Tế LiLaMa2",
+        "dia_chi": "0848"
+    },
+    {
+        "ma_truong": "3998",
+        "ten": "CĐ nghề KV Long Thành-Nhơn Trạch",
+        "dia_chi": "0848"
+    },
+    {
+        "ma_truong": "4000",
+        "ten": "CĐ nghề công nghệ cao Đồng Nai",
+        "dia_chi": "0848"
+    },
+    {
+        "ma_truong": "4016",
+        "ten": "CĐ nghề Cơ giới - Thủy lợi",
+        "dia_chi": "1048"
+    },
+    {
+        "ma_truong": "4021",
+        "ten": "CĐ Cơ giới - Thủy lợi",
+        "dia_chi": "1048"
+    },
+    {
+        "ma_truong": "4022",
+        "ten": "CĐ Hòa Bình Xuân Lộc",
+        "dia_chi": "1048"
+    },
+    {
+        "ma_truong": "4042",
+        "ten": "CĐ nghề Kỹ thuật Công nghệ LADEC",
+        "dia_chi": "0149"
+    },
+    {
+        "ma_truong": "4043",
+        "ten": "CĐ Nghề Long An",
+        "dia_chi": "0149"
+    },
+    {
+        "ma_truong": "408",
+        "ten": "Nhạc Viện Thành phố Hồ Chí Minh",
+        "dia_chi": "0102"
+    },
+    {
+        "ma_truong": "4083",
+        "ten": "CĐ nghề Tây Sài Gòn",
+        "dia_chi": "0849"
+    },
+    {
+        "ma_truong": "409",
+        "ten": "BTVH CĐKT Cao Thắng",
+        "dia_chi": "0102"
+    },
+    {
+        "ma_truong": "411",
+        "ten": "CĐ nghề Thành phố Hồ Chí Minh",
+        "dia_chi": "0102"
+    },
+    {
+        "ma_truong": "4158",
+        "ten": "CĐ nghề Đồng Tháp",
+        "dia_chi": "0450"
+    },
+    {
+        "ma_truong": "4168",
+        "ten": "Năng khiếu TDTT",
+        "dia_chi": "0550"
+    },
+    {
+        "ma_truong": "4172",
+        "ten": "CĐ Nghề Cơ điện Xây dựng Việt Xô",
+        "dia_chi": "0550"
+    },
+    {
+        "ma_truong": "4173",
+        "ten": "Cao đẳng cộng đồng Đồng Tháp",
+        "dia_chi": "0550"
+    },
+    {
+        "ma_truong": "419",
+        "ten": "Phân hiệu THPT Lê Thị Hồng Gấm",
+        "dia_chi": "0302"
+    },
+    {
+        "ma_truong": "4233",
+        "ten": "CĐ Nghề An Giang",
+        "dia_chi": "0151"
+    },
+    {
+        "ma_truong": "4238",
+        "ten": "Năng khiếu thể thao",
+        "dia_chi": "0151"
+    },
+    {
+        "ma_truong": "4246",
+        "ten": "Cao Đẳng Y Tế An Giang",
+        "dia_chi": "0151"
+    },
+    {
+        "ma_truong": "426",
+        "ten": "Phân hiệu BTVH Lê Thị Hồng Gấm",
+        "dia_chi": "0302"
+    },
+    {
+        "ma_truong": "429",
+        "ten": "CĐ Giao thông Vận tải",
+        "dia_chi": "0302"
+    },
+    {
+        "ma_truong": "430",
+        "ten": "CĐ nghề Việt Mỹ",
+        "dia_chi": "0302"
+    },
+    {
+        "ma_truong": "4337",
+        "ten": "BTVH Cấp 2,3 Nguyễn Thái Học",
+        "dia_chi": "0152"
+    },
+    {
+        "ma_truong": "4338",
+        "ten": "CĐ nghề Dầu khí",
+        "dia_chi": "0152"
+    },
+    {
+        "ma_truong": "4341",
+        "ten": "CĐ nghề Du lịch Vũng Tàu",
+        "dia_chi": "0152"
+    },
+    {
+        "ma_truong": "4360",
+        "ten": "CĐ nghề tỉnh Bà Rịa-Vũng Tàu",
+        "dia_chi": "0452"
+    },
+    {
+        "ma_truong": "4370",
+        "ten": "CĐ nghề quốc tế Hồng Lam",
+        "dia_chi": "0652"
+    },
+    {
+        "ma_truong": "4457",
+        "ten": "Cao đẳng Nghề tỉnh Kiên Giang",
+        "dia_chi": "0154"
+    },
+    {
+        "ma_truong": "4459",
+        "ten": "CĐ Cộng đồng Kiên Giang",
+        "dia_chi": "0154"
+    },
+    {
+        "ma_truong": "4460",
+        "ten": "Cao đẳng Kinh tế - Kỹ thuật Kiên Giang",
+        "dia_chi": "0154"
+    },
+    {
+        "ma_truong": "4461",
+        "ten": "CĐ Sư phạm Kiên Giang",
+        "dia_chi": "0154"
+    },
+    {
+        "ma_truong": "4462",
+        "ten": "CĐ Y tế Kiên Giang",
+        "dia_chi": "0154"
+    },
+    {
+        "ma_truong": "4463",
+        "ten": "Chính trị tỉnh Kiên Giang",
+        "dia_chi": "0154"
+    },
+    {
+        "ma_truong": "4466",
+        "ten": "Năng khiếu TDTT Kiên Giang",
+        "dia_chi": "0154"
+    },
+    {
+        "ma_truong": "4552",
+        "ten": "GDNN - GDTX quận Ninh Kiều",
+        "dia_chi": "0155"
+    },
+    {
+        "ma_truong": "4559",
+        "ten": "CĐ Nghề Việt Mỹ, Phân hiệu CT",
+        "dia_chi": "0155"
+    },
+    {
+        "ma_truong": "4560",
+        "ten": "CĐ Nghề ISPACE, Phân hiệu CT",
+        "dia_chi": "0155"
+    },
+    {
+        "ma_truong": "4568",
+        "ten": "CĐ Kinh tế - Kỹ thuật Cần Thơ",
+        "dia_chi": "0155"
+    },
+    {
+        "ma_truong": "4569",
+        "ten": "Cao đẳng Cần Thơ",
+        "dia_chi": "0155"
+    },
+    {
+        "ma_truong": "4570",
+        "ten": "CĐ Y tế Cần Thơ",
+        "dia_chi": "0155"
+    },
+    {
+        "ma_truong": "4571",
+        "ten": "CĐ Nghề Du lịch Cần Thơ",
+        "dia_chi": "0155"
+    },
+    {
+        "ma_truong": "4579",
+        "ten": "GDNN - GDTX quận Bình Thủy",
+        "dia_chi": "0255"
+    },
+    {
+        "ma_truong": "4581",
+        "ten": "CĐ Nghề Cần Thơ",
+        "dia_chi": "0255"
+    },
+    {
+        "ma_truong": "4584",
+        "ten": "CĐ Kinh tế Đối ngoại TPHCM (Cơ sở 2 Cần Thơ)",
+        "dia_chi": "0255"
+    },
+    {
+        "ma_truong": "4589",
+        "ten": "GDNN - GDTX quận Cái Răng",
+        "dia_chi": "0355"
+    },
+    {
+        "ma_truong": "459",
+        "ten": "CĐ GTVT 3",
+        "dia_chi": "0602"
+    },
+    {
+        "ma_truong": "4596",
+        "ten": "GDNN - GDTX quận Ô Môn",
+        "dia_chi": "0455"
+    },
+    {
+        "ma_truong": "4598",
+        "ten": "CĐ Cơ điện và Nông nghiệp Nam Bộ",
+        "dia_chi": "0455"
+    },
+    {
+        "ma_truong": "460",
+        "ten": "CĐ Kỹ thuật Phú Lâm",
+        "dia_chi": "0602"
+    },
+    {
+        "ma_truong": "4600",
+        "ten": "GDNN - GDTX huyện Phong Điền",
+        "dia_chi": "0555"
+    },
+    {
+        "ma_truong": "4607",
+        "ten": "GDNN - GDTX huyện Cờ Đỏ",
+        "dia_chi": "0655"
+    },
+    {
+        "ma_truong": "4609",
+        "ten": "GDNN - GDTX huyện Vĩnh Thạnh",
+        "dia_chi": "0755"
+    },
+    {
+        "ma_truong": "4615",
+        "ten": "GDNN - GDTX quận Thốt Nốt",
+        "dia_chi": "0855"
+    },
+    {
+        "ma_truong": "4620",
+        "ten": "GDNN - GDTX huyện Thới Lai",
+        "dia_chi": "0955"
+    },
+    {
+        "ma_truong": "4633",
+        "ten": "CĐ Bến Tre",
+        "dia_chi": "0156"
+    },
+    {
+        "ma_truong": "4635",
+        "ten": "CĐ nghề Đồng Khởi",
+        "dia_chi": "0156"
+    },
+    {
+        "ma_truong": "4637",
+        "ten": "Năng khiếu TDTT Bến Tre",
+        "dia_chi": "0156"
+    },
+    {
+        "ma_truong": "47",
+        "ten": "GDNN-GDTX quận Đống Đa",
+        "dia_chi": "0401"
+    },
+    {
+        "ma_truong": "4702",
+        "ten": "Năng khiếu Thể dục thể thao",
+        "dia_chi": "0157"
+    },
+    {
+        "ma_truong": "4703",
+        "ten": "Cao đẳng Kinh tế Tài chính Vĩnh Long",
+        "dia_chi": "0157"
+    },
+    {
+        "ma_truong": "472",
+        "ten": "CĐ BC CN&QTDN",
+        "dia_chi": "0702"
+    },
+    {
+        "ma_truong": "4752",
+        "ten": "Phổ thông Dân Tộc Nội Trú - THPT tỉnh Trà Vinh",
+        "dia_chi": "0158"
+    },
+    {
+        "ma_truong": "4756",
+        "ten": "Cao đẳng nghề Trà Vinh",
+        "dia_chi": "0158"
+    },
+    {
+        "ma_truong": "4760",
+        "ten": "Cao đẳng Sư phạm Trà Vinh",
+        "dia_chi": "0158"
+    },
+    {
+        "ma_truong": "48",
+        "ten": "GDTX Đống Đa",
+        "dia_chi": "0401"
+    },
+    {
+        "ma_truong": "4808",
+        "ten": "Công an, Quân nhân tại ngũ 59",
+        "dia_chi": "0059"
+    },
+    {
+        "ma_truong": "4814",
+        "ten": "BTVH Pali Trung cấp Nam Bộ",
+        "dia_chi": "0159"
+    },
+    {
+        "ma_truong": "4818",
+        "ten": "Phổ thông DTNT Sóc Trăng",
+        "dia_chi": "0159"
+    },
+    {
+        "ma_truong": "4820",
+        "ten": "Hệ thiếu sinh quân Trường Quân sự Quân khu 9",
+        "dia_chi": "0159"
+    },
+    {
+        "ma_truong": "4887",
+        "ten": "Cao đẳng Nghề Bạc Liêu",
+        "dia_chi": "0160"
+    },
+    {
+        "ma_truong": "4890",
+        "ten": "Cao đẳng Sư phạm Bạc Liêu",
+        "dia_chi": "0160"
+    },
+    {
+        "ma_truong": "49",
+        "ten": "Học viện âm nhạc QGVN",
+        "dia_chi": "0401"
+    },
+    {
+        "ma_truong": "492",
+        "ten": "CĐ KT KT Công Nghiệp 2",
+        "dia_chi": "0902"
+    },
+    {
+        "ma_truong": "493",
+        "ten": "CĐ nghề Kỹ thuật Công nghệ",
+        "dia_chi": "0902"
+    },
+    {
+        "ma_truong": "4939",
+        "ten": "Cao đẳng Nghề Việt Nam-Hàn Quốc Cà Mau",
+        "dia_chi": "0161"
+    },
+    {
+        "ma_truong": "508",
+        "ten": "CĐ Kinh Tế",
+        "dia_chi": "1002"
+    },
+    {
+        "ma_truong": "51",
+        "ten": "CĐ Kỹ thuật thiết bị y tế",
+        "dia_chi": "0401"
+    },
+    {
+        "ma_truong": "5119",
+        "ten": "CĐ Nghề Trần Đại Nghĩa",
+        "dia_chi": "0564"
+    },
+    {
+        "ma_truong": "52",
+        "ten": "CĐ nghề Công nghiệp Hà Nội",
+        "dia_chi": "0401"
+    },
+    {
+        "ma_truong": "576",
+        "ten": "CĐKT Lý Tự Trọng TP. HCM",
+        "dia_chi": "1402"
+    },
+    {
+        "ma_truong": "604",
+        "ten": "CĐ nghề Giao thông vận tải TW3",
+        "dia_chi": "1502"
+    },
+    {
+        "ma_truong": "618",
+        "ten": "BTVH Thanh Đa",
+        "dia_chi": "1602"
+    },
+    {
+        "ma_truong": "629",
+        "ten": "BTVH ĐH Ngoại Thương",
+        "dia_chi": "1702"
+    },
+    {
+        "ma_truong": "64",
+        "ten": "GDNN-GDTX quận Tây Hồ",
+        "dia_chi": "0501"
+    },
+    {
+        "ma_truong": "645",
+        "ten": "CĐ Công nghệ Thủ Đức",
+        "dia_chi": "1802"
+    },
+    {
+        "ma_truong": "65",
+        "ten": "GDTX Tây Hồ",
+        "dia_chi": "0501"
+    },
+    {
+        "ma_truong": "81",
+        "ten": "GDNN-GDTX quận Cầu Giấy",
+        "dia_chi": "0601"
+    },
+    {
+        "ma_truong": "82",
+        "ten": "GDTX&DN Cầu Giấy",
+        "dia_chi": "0601"
+    },
+    {
+        "ma_truong": "831",
+        "ten": "GDTX Tỉnh",
+        "dia_chi": "0105"
+    },
+    {
+        "ma_truong": "832",
+        "ten": "CĐ Nghề Hà Giang",
+        "dia_chi": "0105"
+    },
+    {
+        "ma_truong": "833",
+        "ten": "CĐSP Hà Giang",
+        "dia_chi": "0105"
+    },
+    {
+        "ma_truong": "835",
+        "ten": "GDTX - HN tỉnh Hà Giang",
+        "dia_chi": "0105"
+    },
+    {
+        "ma_truong": "837",
+        "ten": "GDTX Đồng Văn",
+        "dia_chi": "0205"
+    },
+    {
+        "ma_truong": "838",
+        "ten": "GDNN - GDTX Đồng Văn",
+        "dia_chi": "0205"
+    },
+    {
+        "ma_truong": "84",
+        "ten": "Cao đẳng Sư phạm Trung ương",
+        "dia_chi": "0601"
+    },
+    {
+        "ma_truong": "840",
+        "ten": "GDTX Mèo Vạc",
+        "dia_chi": "0305"
+    },
+    {
+        "ma_truong": "841",
+        "ten": "GDNN - GDTX Mèo Vạc",
+        "dia_chi": "0305"
+    },
+    {
+        "ma_truong": "843",
+        "ten": "GDTX Yên Minh",
+        "dia_chi": "0405"
+    },
+    {
+        "ma_truong": "847",
+        "ten": "GDNN - GDTX Yên Minh",
+        "dia_chi": "0405"
+    },
+    {
+        "ma_truong": "849",
+        "ten": "GDTX Quản Bạ",
+        "dia_chi": "0505"
+    },
+    {
+        "ma_truong": "85",
+        "ten": "CĐ nghề cơ điện Hà Nội",
+        "dia_chi": "0601"
+    },
+    {
+        "ma_truong": "851",
+        "ten": "GDNN - GDTX Quản Bạ",
+        "dia_chi": "0505"
+    },
+    {
+        "ma_truong": "854",
+        "ten": "GDTX Vị Xuyên",
+        "dia_chi": "0605"
+    },
+    {
+        "ma_truong": "859",
+        "ten": "GDNN - GDTX Vị Xuyên",
+        "dia_chi": "0605"
+    },
+    {
+        "ma_truong": "86",
+        "ten": "CĐ nghề Phú Châu",
+        "dia_chi": "0601"
+    },
+    {
+        "ma_truong": "861",
+        "ten": "GDTX Bắc Mê",
+        "dia_chi": "0705"
+    },
+    {
+        "ma_truong": "863",
+        "ten": "GDNN - GDTX Bắc Mê",
+        "dia_chi": "0705"
+    },
+    {
+        "ma_truong": "865",
+        "ten": "GDTX Hoàng Su Phì",
+        "dia_chi": "0805"
+    },
+    {
+        "ma_truong": "868",
+        "ten": "GDNN - GDTX Hoàng Su Phì",
+        "dia_chi": "0805"
+    },
+    {
+        "ma_truong": "87",
+        "ten": "CĐ nghề Trần Hưng Đạo",
+        "dia_chi": "0601"
+    },
+    {
+        "ma_truong": "870",
+        "ten": "GDTX Xín Mần",
+        "dia_chi": "0905"
+    },
+    {
+        "ma_truong": "873",
+        "ten": "GDNN - GDTX Xín Mần",
+        "dia_chi": "0905"
+    },
+    {
+        "ma_truong": "879",
+        "ten": "GDTX Bắc Quang",
+        "dia_chi": "1005"
+    },
+    {
+        "ma_truong": "884",
+        "ten": "GDNN - GDTX Bắc Quang",
+        "dia_chi": "1005"
+    },
+    {
+        "ma_truong": "890",
+        "ten": "GDNN - GDTX Quang Bình",
+        "dia_chi": "1105"
+    },
+    {
+        "ma_truong": "950",
+        "ten": "CĐ Cộng đồng Lai Châu",
+        "dia_chi": "0107"
+    },
+    {
+        "ma_truong": "965",
+        "ten": "DTNT THPT huyện Sìn Hồ",
+        "dia_chi": "0407"
+    },
+    {
+        "ma_truong": "977",
+        "ten": "DTNT THPT huyện Than Uyên",
+        "dia_chi": "0607"
+    },
+    {
+        "ma_truong": "986",
+        "ten": "DTNT THPT huyện Nậm Nhùn",
+        "dia_chi": "0807"
+    }
+]

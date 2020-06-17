@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Webslesson Tutorial | JSON - Dynamic Dependent Dropdown List using Jquery and Ajax</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <br /><br />
+    <div class="container" style="width:600px;">
+        <h2 align="center">JSON - Dynamic Dependent Dropdown List using Jquery and Ajax</h2><br /><br />
+        <select name="provinces" id="provinces" class="form-control input-lg">
+            <option value="">Select provinces</option>
+        </select>
+        <br />
+        <select name="districts" id="districts" class="form-control input-lg">
+            <option value="">Select districts</option>
+        </select>
+        <br />
+        <select name="thpt" id="thpt" class="form-control input-lg">
+            <option value="">Select thpt</option>
+        </select>
+    </div>
+</body>
+
+</html>
+<script>
+    $(document).ready(function () {
+        load_tinh_thanh_pho("provinces");
+        function load_tinh_thanh_pho(id) {
+            var html_code = '';
+            html_code += '<option value="">Select ' + id + '</option>';
+
+            $.getJSON('tinhthanhpho.json', function (data) {
+                $.each(data, function (key, value) {
+                    html_code += '<option value="' + value.ma_ttp + '">' + value.ten + '</option>';
+                });
+                $('#' + id).html(html_code);
+            });
+
+        }
+
+        $(document).on('change', '#provinces', function () {
+            var provinces_id = $(this).val();
+            //console.log(provinces_id);
+            if (provinces_id != '') {
+                load_quan_huyen('districts', provinces_id);
+                function load_quan_huyen(id, provinces_id) {
+                    var html_code = '';
+                    html_code += '<option value="">Select ' + id + '</option>';
+
+                    $.getJSON('quanhuyen.json', function (data) {
+                        $.each(data, function (key, value) {
+                            //console.log(value);
+                            if(provinces_id == value.ma_ttp){
+                                //console.log(value);
+                                html_code += '<option value="' + value.ma_qh + '">' + value.ten + '</option>';
+                            }
+                        });
+                        $('#' + id).html(html_code);
+                    });
+                }
+            }
+            else {
+                $('#districts').html('<option value="">Select districts</option>');
+                $('#thpt').html('<option value="">Select thpt</option>');
+            }
+        });
+
+        $(document).on('change', '#districts', function () {
+            var districts_id = $(this).val();
+            //console.log(districts_id);
+            if (districts_id != '') {
+                load_truong('thpt', districts_id);
+                function load_truong(id, districts_id) {
+                    var html_code = '';
+                    html_code += '<option value="">Select ' + id + '</option>';
+
+                    $.getJSON('truong.json', function (data) {
+                        $.each(data, function (key, value) {
+                            //console.log(value);
+                            if(districts_id == value.dia_chi){
+                                //console.log(value);
+                                html_code += '<option value="' + value.ma_qh + '">' + value.ten + '</option>';
+                            }
+                        });
+                        $('#' + id).html(html_code);
+                    });
+                }
+            }
+            else {
+                $('#thpt').html('<option value="">Select thpt</option>');
+            }
+        });
+    });
+</script>

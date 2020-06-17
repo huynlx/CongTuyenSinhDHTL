@@ -1,0 +1,169 @@
+/*Reset*/
+.container-fluid{
+    padding: 0;
+    width: 100%;
+}
+.row, .col-md-12, .col-md-6, .col-lg-3, .col-lg-9, .col-xs-4, .col-xs-6, .col-xs-8{
+    margin: 0;
+    padding: 0;
+}
+/*Nav*/
+header .me-nav {
+    background: linear-gradient(95.82deg, #007bff 0%, rgba(255, 255, 255, 0) 50.26%),
+    linear-gradient(264.18deg, #007bff 0%, rgba(255, 255, 255, 0) 50.26%), #FFFFFF;
+}
+header .me-nav .navbar-brand img{
+    height: 35px;
+}
+header .me-nav .dropdown .dropdown-menu{
+    background-color: #0069d9;
+}
+header .me-nav .dropdown-item:hover{
+    background-color: white;
+}
+header .me-nav #navcol-1 .nav-link:hover{
+    color: white;
+}
+header .me-nav #navcol-1 .btn{
+    border-radius: 25px;
+    margin: 0 50px;
+}
+
+/*Menu*/
+.me-menu-admin{
+    padding:5px 20px;
+}
+.panel-collapse>ul{
+    list-style: none;
+    background: #eeeeee;
+    margin-bottom: 0;
+}
+.panel-collapse>ul>li{
+    padding-bottom: 5px;
+}
+.panel-collapse>ul>li>a{
+    color: #7b7c7e;
+    font-size: 15px;
+}
+.panel-title>a:focus{
+    color: #ff9708;
+    text-decoration: underline;
+}
+.panel-title>a:hover{
+    text-decoration: underline;
+    color: #ff9708;
+}
+.panel-title>a:active{
+    text-decoration: underline;
+}
+
+/*Footer*/
+.me-footer-admin .copyright{
+    font-size: 15px;
+}
+/*Nội dung thay đổi*/
+.me-admin-menu{
+    background-color: #f5f5f5;
+}
+.me-admin-content{
+    box-sizing: border-box;
+    min-height: 560px;
+}
+
+/*List*/
+.me-list-admin{
+    width: 100%;
+    padding: 10px;
+    overflow-y: auto;
+}
+.list123{
+    font-size: 1.5em;
+    color: #dc3545;
+    text-align: center;
+}
+
+/*Dashboard*/
+.content{
+    padding: 20px 30px;
+}
+.content .me-db-item{
+    padding: 0 30px;
+}
+
+/*Form đăng ký*/
+.Sex{
+    height: 100%;
+    width: 100%;
+}
+.Sex .form-check{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+/*Drop menu*/
+.dropdown {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 120px;
+    box-shadow: 0px 3px 7px 0px #ccc;
+    z-index: 3;
+    left: 25%;
+    padding: 0;
+    color: #000;
+    background: #fff;
+    top: calc(100%);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px!important;
+}
+.dropdown-content a i{
+    margin-right: 5px;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*Form TTCN*/
+.me-TTCN {
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.me-TTCN form.custom-form{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.me-TTCN img{
+    width: 100%;
+}
+.me-TTCN label{
+    padding: 0 10px;
+}
+.me-TTCN .row,.me-TTCN .col-sm-4,.me-TTCN .col-sm-6,.me-TTCN .col-md-6,.me-TTCN .col-lg-4,.me-TTCN .col-lg-8{
+    padding: 0;
+    margin: 0;
+}
+.me-TTCN #me-setting-ttcn{
+    border-radius: 30px;
+    position: absolute; /*lớp cha * relative */
+    right: 0;
+}

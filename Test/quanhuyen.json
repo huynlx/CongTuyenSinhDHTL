@@ -1,0 +1,727 @@
+[
+    {
+        "ma_qh": "0059",
+        "ten": "Sở Giáo dục và Đào tạo",
+        "ma_ttp": "59"
+    },
+    {
+        "ma_qh": "0101",
+        "ten": "Quận Ba Đình",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "0102",
+        "ten": "Quận 1",
+        "ma_ttp": "02"
+    },
+    {
+        "ma_qh": "0105",
+        "ten": "Thành phố Hà Giang",
+        "ma_ttp": "05"
+    },
+    {
+        "ma_qh": "0107",
+        "ten": "Thành Phố Lai Châu",
+        "ma_ttp": "07"
+    },
+    {
+        "ma_qh": "0110",
+        "ten": "Thành phố Lạng Sơn",
+        "ma_ttp": "10"
+    },
+    {
+        "ma_qh": "0111",
+        "ten": "Thành phố Bắc Kạn",
+        "ma_ttp": "11"
+    },
+    {
+        "ma_qh": "0112",
+        "ten": "Thành phố Thái Nguyên",
+        "ma_ttp": "12"
+    },
+    {
+        "ma_qh": "0113",
+        "ten": "Thành phố Yên Bái",
+        "ma_ttp": "13"
+    },
+    {
+        "ma_qh": "0115",
+        "ten": "Thành phố Việt Trì",
+        "ma_ttp": "15"
+    },
+    {
+        "ma_qh": "0116",
+        "ten": "Thành phố Vĩnh Yên",
+        "ma_ttp": "16"
+    },
+    {
+        "ma_qh": "0118",
+        "ten": "Thành phố Bắc Giang",
+        "ma_ttp": "18"
+    },
+    {
+        "ma_qh": "0119",
+        "ten": "Thành phố Bắc Ninh",
+        "ma_ttp": "19"
+    },
+    {
+        "ma_qh": "0123",
+        "ten": "Thành phố Hòa Bình",
+        "ma_ttp": "23"
+    },
+    {
+        "ma_qh": "0124",
+        "ten": "Thành phố Phủ Lý",
+        "ma_ttp": "24"
+    },
+    {
+        "ma_qh": "0125",
+        "ten": "Thành phố Nam Định",
+        "ma_ttp": "25"
+    },
+    {
+        "ma_qh": "0126",
+        "ten": "Thành phố Thái Bình",
+        "ma_ttp": "26"
+    },
+    {
+        "ma_qh": "0127",
+        "ten": "Thành phố Ninh Bình",
+        "ma_ttp": "27"
+    },
+    {
+        "ma_qh": "0128",
+        "ten": "Thành phố Thanh Hóa",
+        "ma_ttp": "28"
+    },
+    {
+        "ma_qh": "0129",
+        "ten": "Thành phố Vinh",
+        "ma_ttp": "29"
+    },
+    {
+        "ma_qh": "0130",
+        "ten": "Thành phố Hà Tĩnh",
+        "ma_ttp": "30"
+    },
+    {
+        "ma_qh": "0131",
+        "ten": "Thành phố Đồng Hới",
+        "ma_ttp": "31"
+    },
+    {
+        "ma_qh": "0133",
+        "ten": "Thành phố Huế",
+        "ma_ttp": "33"
+    },
+    {
+        "ma_qh": "0134",
+        "ten": "Thành phố Tam Kỳ",
+        "ma_ttp": "34"
+    },
+    {
+        "ma_qh": "0136",
+        "ten": "Thành phố Kon Tum",
+        "ma_ttp": "36"
+    },
+    {
+        "ma_qh": "0137",
+        "ten": "Thành phố Quy Nhơn",
+        "ma_ttp": "37"
+    },
+    {
+        "ma_qh": "0139",
+        "ten": "Thành phố Tuy Hòa",
+        "ma_ttp": "39"
+    },
+    {
+        "ma_qh": "0140",
+        "ten": "Thành phố Buôn Ma Thuột",
+        "ma_ttp": "40"
+    },
+    {
+        "ma_qh": "0141",
+        "ten": "Thành phố Nha Trang",
+        "ma_ttp": "41"
+    },
+    {
+        "ma_qh": "0142",
+        "ten": "Thành phố Đà Lạt",
+        "ma_ttp": "42"
+    },
+    {
+        "ma_qh": "0146",
+        "ten": "Thành phố Tây Ninh",
+        "ma_ttp": "46"
+    },
+    {
+        "ma_qh": "0147",
+        "ten": "Thành phố Phan Thiết",
+        "ma_ttp": "47"
+    },
+    {
+        "ma_qh": "0148",
+        "ten": "Thành phố Biên Hòa",
+        "ma_ttp": "48"
+    },
+    {
+        "ma_qh": "0149",
+        "ten": "Thành phố Tân An",
+        "ma_ttp": "49"
+    },
+    {
+        "ma_qh": "0151",
+        "ten": "Thành phố Long Xuyên",
+        "ma_ttp": "51"
+    },
+    {
+        "ma_qh": "0152",
+        "ten": "Thành phố Vũng Tàu",
+        "ma_ttp": "52"
+    },
+    {
+        "ma_qh": "0154",
+        "ten": "Thành phố Rạch Giá",
+        "ma_ttp": "54"
+    },
+    {
+        "ma_qh": "0155",
+        "ten": "Quận Ninh Kiều",
+        "ma_ttp": "55"
+    },
+    {
+        "ma_qh": "0156",
+        "ten": "Thành phố Bến Tre",
+        "ma_ttp": "56"
+    },
+    {
+        "ma_qh": "0157",
+        "ten": "Thành phố Vĩnh Long",
+        "ma_ttp": "57"
+    },
+    {
+        "ma_qh": "0158",
+        "ten": "Thành phố Trà Vinh",
+        "ma_ttp": "58"
+    },
+    {
+        "ma_qh": "0159",
+        "ten": "Thành phố Sóc Trăng",
+        "ma_ttp": "59"
+    },
+    {
+        "ma_qh": "0160",
+        "ten": "Thành phố Bạc Liêu",
+        "ma_ttp": "60"
+    },
+    {
+        "ma_qh": "0161",
+        "ten": "Thành phố Cà Mau",
+        "ma_ttp": "61"
+    },
+    {
+        "ma_qh": "0201",
+        "ten": "Quận Hoàn Kiếm",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "0205",
+        "ten": "Huyện Đồng Văn",
+        "ma_ttp": "05"
+    },
+    {
+        "ma_qh": "0212",
+        "ten": "Thành phố Sông Công",
+        "ma_ttp": "12"
+    },
+    {
+        "ma_qh": "0217",
+        "ten": "Thành phố Cẩm Phả",
+        "ma_ttp": "17"
+    },
+    {
+        "ma_qh": "0227",
+        "ten": "Thành phố Tam Điệp",
+        "ma_ttp": "27"
+    },
+    {
+        "ma_qh": "0229",
+        "ten": "Thị xã Cửa Lò",
+        "ma_ttp": "29"
+    },
+    {
+        "ma_qh": "0233",
+        "ten": "Huyện Phong Điền",
+        "ma_ttp": "33"
+    },
+    {
+        "ma_qh": "0242",
+        "ten": "Thành phố Bảo Lộc",
+        "ma_ttp": "42"
+    },
+    {
+        "ma_qh": "0255",
+        "ten": "Quận Bình Thủy",
+        "ma_ttp": "55"
+    },
+    {
+        "ma_qh": "0301",
+        "ten": "Quận Hai Bà Trưng",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "0302",
+        "ten": "Quận 3",
+        "ma_ttp": "02"
+    },
+    {
+        "ma_qh": "0305",
+        "ten": "Huyện Mèo Vạc",
+        "ma_ttp": "05"
+    },
+    {
+        "ma_qh": "0317",
+        "ten": "Thành phố Uông Bí",
+        "ma_ttp": "17"
+    },
+    {
+        "ma_qh": "0327",
+        "ten": "Huyện Nho Quan",
+        "ma_ttp": "27"
+    },
+    {
+        "ma_qh": "0343",
+        "ten": "Huyện Chơn Thành",
+        "ma_ttp": "43"
+    },
+    {
+        "ma_qh": "0355",
+        "ten": "Quận Cái Răng",
+        "ma_ttp": "55"
+    },
+    {
+        "ma_qh": "0401",
+        "ten": "Quận Đống Đa",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "0405",
+        "ten": "Huyện Yên Minh",
+        "ma_ttp": "05"
+    },
+    {
+        "ma_qh": "0407",
+        "ten": "Huyện Sìn Hồ",
+        "ma_ttp": "07"
+    },
+    {
+        "ma_qh": "0412",
+        "ten": "Huyện Phú Lương",
+        "ma_ttp": "12"
+    },
+    {
+        "ma_qh": "0422",
+        "ten": "Huyện Khoái Châu",
+        "ma_ttp": "22"
+    },
+    {
+        "ma_qh": "0427",
+        "ten": "Huyện Gia Viễn",
+        "ma_ttp": "27"
+    },
+    {
+        "ma_qh": "0444",
+        "ten": "Thị xã Thuận An",
+        "ma_ttp": "44"
+    },
+    {
+        "ma_qh": "0450",
+        "ten": "Thành phố Sa Đéc",
+        "ma_ttp": "50"
+    },
+    {
+        "ma_qh": "0452",
+        "ten": "Huyện Long Điền",
+        "ma_ttp": "52"
+    },
+    {
+        "ma_qh": "0455",
+        "ten": "Quận Ô Môn",
+        "ma_ttp": "55"
+    },
+    {
+        "ma_qh": "0501",
+        "ten": "Quận Tây Hồ",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "0505",
+        "ten": "Huyện Quản Bạ",
+        "ma_ttp": "05"
+    },
+    {
+        "ma_qh": "0508",
+        "ten": "Thành phố Lào Cai",
+        "ma_ttp": "08"
+    },
+    {
+        "ma_qh": "0519",
+        "ten": "Thị xã Từ Sơn",
+        "ma_ttp": "19"
+    },
+    {
+        "ma_qh": "0522",
+        "ten": "Huyện Yên Mỹ",
+        "ma_ttp": "22"
+    },
+    {
+        "ma_qh": "0527",
+        "ten": "Huyện Hoa Lư",
+        "ma_ttp": "27"
+    },
+    {
+        "ma_qh": "0544",
+        "ten": "Thị xã Dĩ An",
+        "ma_ttp": "44"
+    },
+    {
+        "ma_qh": "0550",
+        "ten": "Thành phố Cao Lãnh",
+        "ma_ttp": "50"
+    },
+    {
+        "ma_qh": "0555",
+        "ten": "Huyện Phong Điền",
+        "ma_ttp": "55"
+    },
+    {
+        "ma_qh": "0564",
+        "ten": "Huyện Châu Thành",
+        "ma_ttp": "64"
+    },
+    {
+        "ma_qh": "0601",
+        "ten": "Quận Cầu Giấy",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "0602",
+        "ten": "Quận 6",
+        "ma_ttp": "02"
+    },
+    {
+        "ma_qh": "0605",
+        "ten": "Huyện Vị Xuyên",
+        "ma_ttp": "05"
+    },
+    {
+        "ma_qh": "0607",
+        "ten": "Huyện Than Uyên",
+        "ma_ttp": "07"
+    },
+    {
+        "ma_qh": "0616",
+        "ten": "Huyện Bình Xuyên",
+        "ma_ttp": "16"
+    },
+    {
+        "ma_qh": "0625",
+        "ten": "Huyện Vụ Bản",
+        "ma_ttp": "25"
+    },
+    {
+        "ma_qh": "0627",
+        "ten": "Huyện Yên Mô",
+        "ma_ttp": "27"
+    },
+    {
+        "ma_qh": "0633",
+        "ten": "Thị xã Hương Thủy",
+        "ma_ttp": "33"
+    },
+    {
+        "ma_qh": "0652",
+        "ten": "Thị xã Phú Mỹ (H. Tân Thành)",
+        "ma_ttp": "52"
+    },
+    {
+        "ma_qh": "0655",
+        "ten": "Huyện Cờ Đỏ",
+        "ma_ttp": "55"
+    },
+    {
+        "ma_qh": "0701",
+        "ten": "Quận Thanh Xuân",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "0702",
+        "ten": "Quận 7",
+        "ma_ttp": "02"
+    },
+    {
+        "ma_qh": "0705",
+        "ten": "Huyện Bắc Mê",
+        "ma_ttp": "05"
+    },
+    {
+        "ma_qh": "0727",
+        "ten": "Huyện Kim Sơn",
+        "ma_ttp": "27"
+    },
+    {
+        "ma_qh": "0755",
+        "ten": "Huyện Vĩnh Thạnh",
+        "ma_ttp": "55"
+    },
+    {
+        "ma_qh": "0801",
+        "ten": "Quận Hoàng Mai",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "0805",
+        "ten": "Huyện Hoàng Su Phì",
+        "ma_ttp": "05"
+    },
+    {
+        "ma_qh": "0807",
+        "ten": "Huyện Nậm Nhùn",
+        "ma_ttp": "07"
+    },
+    {
+        "ma_qh": "0816",
+        "ten": "Thành phố Phúc Yên",
+        "ma_ttp": "16"
+    },
+    {
+        "ma_qh": "0822",
+        "ten": "Huyện Mỹ Hào",
+        "ma_ttp": "22"
+    },
+    {
+        "ma_qh": "0827",
+        "ten": "Huyện Yên Khánh",
+        "ma_ttp": "27"
+    },
+    {
+        "ma_qh": "0848",
+        "ten": "Huyện Long Thành",
+        "ma_ttp": "48"
+    },
+    {
+        "ma_qh": "0849",
+        "ten": "Huyện Bến Lức",
+        "ma_ttp": "49"
+    },
+    {
+        "ma_qh": "0855",
+        "ten": "Quận Thốt Nốt",
+        "ma_ttp": "55"
+    },
+    {
+        "ma_qh": "0901",
+        "ten": "Quận Long Biên",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "0902",
+        "ten": "Quận 9",
+        "ma_ttp": "02"
+    },
+    {
+        "ma_qh": "0905",
+        "ten": "Huyện Xín Mần",
+        "ma_ttp": "05"
+    },
+    {
+        "ma_qh": "0912",
+        "ten": "Thị xã Phổ Yên",
+        "ma_ttp": "12"
+    },
+    {
+        "ma_qh": "0922",
+        "ten": "Huyện Văn Lâm",
+        "ma_ttp": "22"
+    },
+    {
+        "ma_qh": "0923",
+        "ten": "Huyện Lạc Thủy",
+        "ma_ttp": "23"
+    },
+    {
+        "ma_qh": "0939",
+        "ten": "Huyện Tây Hòa",
+        "ma_ttp": "39"
+    },
+    {
+        "ma_qh": "0955",
+        "ten": "Huyện Thới Lai",
+        "ma_ttp": "55"
+    },
+    {
+        "ma_qh": "1001",
+        "ten": "Quận Bắc Từ Liêm",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "1002",
+        "ten": "Quận 10",
+        "ma_ttp": "02"
+    },
+    {
+        "ma_qh": "1005",
+        "ten": "Huyện Bắc Quang",
+        "ma_ttp": "05"
+    },
+    {
+        "ma_qh": "1048",
+        "ten": "Huyện Trảng Bom",
+        "ma_ttp": "48"
+    },
+    {
+        "ma_qh": "1101",
+        "ten": "Huyện Thanh Trì",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "1105",
+        "ten": "Huyện Quang Bình",
+        "ma_ttp": "05"
+    },
+    {
+        "ma_qh": "1110",
+        "ten": "Huyện Hữu Lũng",
+        "ma_ttp": "10"
+    },
+    {
+        "ma_qh": "1201",
+        "ten": "Huyện Gia Lâm",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "1301",
+        "ten": "Huyện Đông Anh",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "1330",
+        "ten": "Thị xã Kỳ Anh",
+        "ma_ttp": "30"
+    },
+    {
+        "ma_qh": "1401",
+        "ten": "Huyện Sóc Sơn",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "1402",
+        "ten": "Quận Tân Bình",
+        "ma_ttp": "02"
+    },
+    {
+        "ma_qh": "1501",
+        "ten": "Quận Hà Đông",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "1502",
+        "ten": "Quận Tân Phú",
+        "ma_ttp": "02"
+    },
+    {
+        "ma_qh": "1601",
+        "ten": "Thị xã Sơn Tây",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "1602",
+        "ten": "Quận Bình Thạnh",
+        "ma_ttp": "02"
+    },
+    {
+        "ma_qh": "1701",
+        "ten": "Huyện Ba Vì",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "1702",
+        "ten": "Quận Phú Nhuận",
+        "ma_ttp": "02"
+    },
+    {
+        "ma_qh": "1801",
+        "ten": "Huyện Phúc Thọ",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "1802",
+        "ten": "Quận Thủ Đức",
+        "ma_ttp": "02"
+    },
+    {
+        "ma_qh": "1901",
+        "ten": "Huyện Thạch Thất",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "2001",
+        "ten": "Huyện Quốc Oai",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "2101",
+        "ten": "Huyện Chương Mỹ",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "2201",
+        "ten": "Huyện Đan Phượng",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "2301",
+        "ten": "Huyện Hoài Đức",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "2401",
+        "ten": "Huyện Thanh Oai",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "2501",
+        "ten": "Huyện Mỹ Đức",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "2601",
+        "ten": "Huyện Ứng Hòa",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "2628",
+        "ten": "Huyện Tĩnh Gia",
+        "ma_ttp": "28"
+    },
+    {
+        "ma_qh": "2701",
+        "ten": "Huyện Thường Tín",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "2801",
+        "ten": "Huyện Phú Xuyên",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "2901",
+        "ten": "Huyện Mê Linh",
+        "ma_ttp": "01"
+    },
+    {
+        "ma_qh": "3001",
+        "ten": "Quận Nam Từ Liêm",
+        "ma_ttp": "01"
+    }
+]
